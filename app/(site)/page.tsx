@@ -220,7 +220,7 @@ export default function Home() {
 </div>
 {/* / */}
 
-<section className="flex w-[85%] mx-auto  items-center justify-center gap-9 bg-[#000]">
+<section className="flex w-[85%] mt-[54px] mx-auto  items-center justify-center gap-9 bg-[#000]">
     <div className="w-4/12 p-5">
       <h2 className="text-[#A1CF5F] text-[40px] leading-[50px]">God cares not <br />only about <br />redeeming souls<br /> but also about<br /> restoring his <br />creation . . .</h2>
       <p className="text-white text-[10px] ">We are called to help sustain and  renew his creation, to uphold the created institutions of family and  society, to pursue science and scholarship, to create works of art and  beauty, and to heal and help those suffering from the results of the  Fall.</p>
