@@ -31,18 +31,18 @@ export default function Home() {
           <img src="/banner.jpg" alt="banner" className="w-full" />
           <div className="absolute top-1/2 left-6 transform -translate-y-1/2 text-white">
             <strong className="block text-4xl md:text-5xl lg:text-6xl font-extrabold uppercase leading-tight">
-              <span className="block text-3xl md:text-4xl lg:text-5xl font-normal tracking-wider">Meeting current</span>
-              needs now
+            Live Life<br />
+            With < br />
+            Purpose
             </strong>
             <p className="mt-2 text-base md:text-lg lg:text-xl leading-6">
-              You can prioritize a child’s mental, emotional, <br />
-              behavioral, and physical health
+            Cities Project Global helps people discover and <br /> live out their God-given purpose to transform < br />communities.
             </p>
             <a
               href="#"
-              className="inline-block mt-4 bg-gray-800 hover:bg-green-600 text-white font-extrabold text-sm lg:text-base py-3 px-6 rounded-full transition duration-300"
+              className="inline-block mt-4 bg-[#A1CF5F] hover:bg-green-600 text-white font-extrabold text-sm lg:text-base py-3 px-6 rounded-full transition duration-300"
             >
-              Lend a hand
+             Join Our Community of Culturemakers
             </a>
           </div>
         </div>
@@ -65,7 +65,7 @@ export default function Home() {
         </div>
       </div>
       <div
-        className="w-full md:w-1/2  bg-cover bg-center" >
+        className="w-full md:w-1/2  bg-cover bg-center " >
         <div className="inner_Sec_div">
               <div className='flex flex-col md:flex-row'>
                
@@ -78,41 +78,147 @@ export default function Home() {
       </div>
     </div>
 
-    <div className='w-full flex flex-col md:flex-row'>
-    <div className=' flex flex-col md:flex-row'>
-          <div className='w-6/12'>
-          <img src='/26.png' className='' />
+    <div className='w-[89%] mx-auto flex flex-col md:flex-row border border-black border-solid'>
+    <div className=' flex flex-col md:flex-row w-5/12'>
+          <div className='w-6/12 bg-[url("/30.png")] bg-cover  w-[256px] h-[313px] top-[1785px] left-[100px] gap-0 border-t border-transparent '>
+
               </div>
-              <div className='w-6/12'>
-                <h3>Free workshop</h3>
-                <h5>Please sign up using the link below:</h5>
+              <div className='w-6/12 pl-[14px] grid justify-center p-[49px]'>
+                <h1 className="text-[28px] text-black font-bold">Free workshop</h1>
+                <h5 className="text-[12px] text-black font-bold">Please sign up using the link below:</h5>
                 <hr />
-                <p>
+                <p className="text-[12px] text-black leading-normal">
                 Workshops will occur every other month, so check our website for updates!
                 </p>
-                <p>
+                <p className="text-[14px] text-black leading-normal">
                 <b> Date:</b> November 15, 2024 <br />
                 <b>Time:</b> 10:00 AM - 12:00 PM
                 </p>
              </div>
         </div>
 
-        <div className='w-6/12 flex flex-col md:flex-row'>
-        <div className='w-3/6'>
-        <h3>Free workshop</h3>
-        <h5>Please sign up using the link below:</h5>
+        <div className='w-7/12 flex flex-col md:flex-row ' >
+        <div className='w-6/12 pl-[14px] grid justify-center p-[23px] bg-[#224334]'>
+        <h3 className="text-[28px] text-white font-bold">Leadership Circle</h3>
+        <h5 className="text-[12px] text-white font-bold">Flagship Program</h5>
         <hr />
-        <button className="">Apply Now</button>
-        </div>
-        <div className='w-3/6'>
-        <h3>Free workshop</h3>
-        <h5>Please sign up using the link below:</h5>
-        <hr />
-        <button className="">Apply Now</button>
+        <div className='flex flex-col md:flex-row gap-[28px] items-end'>
         
+        <button className="w-1/2 float-left bg-[#A1CF5F] h-[39px] rounded-[5px] text-black text-[13px]">Apply Now</button>
+        <img src="/30.png" alt="" className='w-1/2 ' />
+        </div>
+        </div>
+        <div className='w-6/12 pl-[14px] grid justify-center p-[23px] bg-[#a1cf5f]'>
+        <h3 className="text-[28px] text-black font-bold">VantagePoint™</h3>
+        <h5 className="text-[12px] text-black font-bold">A Small Group Discovery Series</h5>
+        <hr />
+        <div className='flex flex-col md:flex-row gap-[28px] items-end'>
+        
+        <button className="w-1/2 float-left bg-[#fff] h-[39px] rounded-[5px] text-black text-[13px]">Apply Now</button>
+        <img src="/31.png" alt="" className='w-1/2 ' />
+        </div>
         </div>
    </div>
    </div>
+
+    <div className="container pt-[50px] pb-[50px]">
+      <h1 className="text-[32px] text-black font-bold leading-[38.09px] text-center">
+      Confused over your calling?<br />
+      Is ministry the only work that 'counts'?
+        </h1>
+      <div className=" pl-[14px] flex items-center p-[23px] ">
+      <div className="w-4/12 flex items-center justify-center"><div className="w-6/12 p-2" >
+      <img src="/32.png" alt="" className='' />
+      </div>
+
+          <div className="w-6/12 ">
+            <h3 className="text-[13px] bg-[#a1cf5f] text-black text-center w-[55%] rounded-[20px]">Be Awakened</h3>
+            <h5 className="text-[12px] text-black font-bold">Gain a New Perspective</h5>
+            <p className="text-[12px] text-black leading-normal">Our programs are built on a bedrock of scripture, 
+              designed to help people look at the 
+              relationship between faith, work, and their unique place in it all through a new lens.</p>
+          </div>
+
+          </div>
+      </div>
+
+
+      <div className=" pl-[14px] flex items-center p-[23px] ">
+      
+      <div className="w-4/12 flex items-center justify-center">
+          <div className="w-6/12 float-right">
+            <h3 className="text-[13px] bg-[#a1cf5f] text-black text-center w-[55%] rounded-[20px]">BE EQUIPPED</h3>
+            <h5 className="text-[12px] text-black font-bold">Live an Integrated Life</h5>
+            <p className="text-[12px] text-black leading-normal">Our methods are rich with practical tools for becoming a modern-day apprentice of Jesus, dissolving the false distinction between faith and work.</p>
+          </div>
+          <div className="w-6/12 p-2" >
+      <img src="/33.png" alt="" className='' />
+      </div>
+      </div >
+      </div>
+
+
+      <div className=" pl-[14px] flex items-center p-[23px] ">
+      <div className="w-4/12 flex items-center justify-center"> <div className="w-6/12 p-2" >
+      <img src="/34.png" alt="" className='' />
+      </div>
+
+          <div className="w-6/12 ">
+            <h3 className="text-[13px] bg-[#a1cf5f] text-black text-center w-[55%] rounded-[20px]">BE UNLEASHED</h3>
+            <h5 className="text-[12px] text-black font-bold">Transform Your City</h5>
+            <p className="text-[12px] text-black leading-normal">Our framework is designed to give you actionable steps toward assessing where your city is in need and how you can bring redemption to it.</p>
+          </div>
+      </div>
+      </div>
+    </div>
+
+
+
+        <div className="flex flex-col md:flex-row w-[89%] mx-auto items-center rounded-[5px]" style={{ backgroundColor: 'rgb(3, 4, 2)' }}>
+          <div className="w-4/12 p-[40px]">
+          <h3 className="text-[13px] bg-[#a1cf5f] text-white text-center w-[55%] rounded-[20px]">BE UNLEASHED</h3>
+            <h5 className="text-[27px] text-white font-bold pt-[10px]">THE INTERSECTION</h5>
+            <p className="text-[27px] text-white leading-normal">
+                FAITH, WORK,
+                AND LIFE</p>
+          <img src='/35.png' />
+         
+          <h5 className="text-[20px] text-white font-bold">Bob Varney</h5>
+          <h5 className="text-[12px] text-white font-bold">Cities Project Global CEO, President</h5>
+          </div>
+          <div className="w-8/12 p-10">
+          <img src='/36.png' />
+          <div className="float-right" >
+            <button className="text-black bg-[#A1CF5F] font-bold p-2 rounded-[5px]">Buy Now</button><br />< br />
+          <button className=" text-black bg-white font-bold p-2 rounded-[5px]">Read a Sample Chapter</button>
+          </div>
+          </div>
+        </div>
+
+        <section className="border border-x-0 border-y-stroke bg-alabaster py-11 dark:border-y-strokedark dark:bg-black">
+        <div className="mx-auto max-w-c-1390 px-4 md:px-8 2xl:px-0">
+        <h5 className="text-[38px] text-black text-center font-bold pb-2">Our Partners</h5>
+        <h5 className="text-[18px] text-black text-center font-bold">Be the first to know about Cities Project Global news, programs, and impact</h5>
+          <div className="flex flex-col pt-[29px] md:flex-row items-center justify-center gap-9 ">
+              <img src="/37.png" className="p-[33px] border border-[#e3e2e2]" />
+              <img src="/38.png" className="p-[33px] border border-[#e3e2e2]" />
+              <img src="/39.png" className="p-[33px] border border-[#e3e2e2]" />
+              <img src="/40.png" className="p-[33px] border border-[#e3e2e2]" />
+              <img src="/41.png" className="p-[33px] border border-[#e3e2e2]" />
+          </div>
+          <div className="flex flex-col pt-[29px] md:flex-row items-center justify-center gap-9 ">
+              <img src="/43.png" className="p-[33px] border border-[#e3e2e2]" />
+              <img src="/38.png" className="p-[33px] border border-[#e3e2e2]" />
+              <img src="/37.png" className="p-[33px] border border-[#e3e2e2]" />
+              <div className="">
+              <h5 className="text-[22px] text-black text-center font-bold pb-2">Become a <br /> Partner</h5>
+              <h3 className="text-[18px] text-black text-center font-bold">Join Now!</h3>
+              </div>
+          </div>
+        </div>
+      </section>
+
+
 
 
 {/* body end */}
