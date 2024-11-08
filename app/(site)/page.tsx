@@ -199,22 +199,40 @@ export default function Home() {
         <div className="mx-auto max-w-c-1390 px-4 md:px-8 2xl:px-0">
         <h5 className="text-[38px] text-black text-center font-bold pb-2">Our Partners</h5>
         <h5 className="text-[18px] text-black text-center font-bold">Be the first to know about Cities Project Global news, programs, and impact</h5>
-          <div className="flex flex-col pt-[29px] md:flex-row items-center justify-center gap-9 ">
-              <img src="/37.png" className="p-[33px] border border-[#e3e2e2]" />
-              <img src="/38.png" className="p-[33px] border border-[#e3e2e2]" />
-              <img src="/39.png" className="p-[33px] border border-[#e3e2e2]" />
-              <img src="/40.png" className="p-[33px] border border-[#e3e2e2]" />
-              <img src="/41.png" className="p-[33px] border border-[#e3e2e2]" />
-          </div>
-          <div className="flex flex-col pt-[29px] md:flex-row items-center justify-center gap-9 ">
-              <img src="/43.png" className="p-[33px] border border-[#e3e2e2]" />
-              <img src="/38.png" className="p-[33px] border border-[#e3e2e2]" />
-              <img src="/37.png" className="p-[33px] border border-[#e3e2e2]" />
-              <div className="">
-              <h5 className="text-[22px] text-black text-center font-bold pb-2">Become a <br /> Partner</h5>
-              <h3 className="text-[18px] text-black text-center font-bold">Join Now!</h3>
-              </div>
-          </div>
+        <div className="flex flex-col pt-[29px] md:flex-row items-center justify-center gap-9">
+  <img src="/37.png" className="w-[150px] h-[150px] p-[33px] border border-[#e3e2e2] object-contain" />
+  <img src="/38.png" className="w-[150px] h-[150px] p-[33px] border border-[#e3e2e2] object-contain" />
+  <img src="/39.png" className="w-[150px] h-[150px] p-[33px] border border-[#e3e2e2] object-contain" />
+  <img src="/40.png" className="w-[150px] h-[150px] p-[33px] border border-[#e3e2e2] object-contain" />
+  <img src="/41.png" className="w-[150px] h-[150px] p-[33px] border border-[#e3e2e2] object-contain" />
+</div>
+
+<div className="flex flex-col pt-[29px] md:flex-row items-center justify-center gap-9">
+  <img src="/43.png" className="w-[150px] h-[150px] p-[33px] border border-[#e3e2e2] object-contain" />
+  <img src="/38.png" className="w-[150px] h-[150px] p-[33px] border border-[#e3e2e2] object-contain" />
+  <img src="/37.png" className="w-[150px] h-[150px] p-[33px] border border-[#e3e2e2] object-contain" />
+  <div className="bg-black text-white p-[27px] w-[150px] h-[150px] flex items-center justify-center">
+    <div className="text-center">
+      <h5 className="text-[15px] font-bold pb-2">Become a Partner</h5>
+      <h3 className="text-[12px] font-bold">Join Now!</h3>
+    </div>
+  </div>
+</div>
+{/* / */}
+
+<section className="flex w-[85%] mx-auto  items-center justify-center gap-9 bg-[#000]">
+    <div className="w-4/12 p-5">
+      <h2 className="text-[#A1CF5F] text-[40px] leading-[50px]">God cares not <br />only about <br />redeeming souls<br /> but also about<br /> restoring his <br />creation . . .</h2>
+      <p className="text-white text-[10px] ">We are called to help sustain and  renew his creation, to uphold the created institutions of family and  society, to pursue science and scholarship, to create works of art and  beauty, and to heal and help those suffering from the results of the  Fall.</p>
+      <p className="text-white text-[12px] ">--- Charles colson & nancy pearcey</p>
+      <p className="text-white text-[10px] ">How then shall we live?</p>
+    </div>
+    <div className="w-8/12">
+    <img src="/44.jpg" className="object-contain" />
+    </div>
+
+</section>
+
         </div>
       </section>
 
