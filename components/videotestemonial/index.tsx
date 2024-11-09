@@ -15,19 +15,25 @@ const videoData = [
     id: "1",
     title: "Video 1",
     videoUrl: "video.mp4", // Replace with actual video URLs
-    description: "This is the first video in the carousel.",
+    description: "/thumb.png",
   },
   {
     id: "2",
     title: "Video 2",
     videoUrl: "video.mp4", // Replace with actual video URLs
-    description: "This is the second video in the carousel.",
+    description: "/51.png",
   },
   {
     id: "3",
     title: "Video 3",
     videoUrl: "/video.mp4", // Replace with actual video URLs
-    description: "This is the third video in the carousel.",
+    description: "/52.png",
+  },
+  {
+    id: "4",
+    title: "Video 3",
+    videoUrl: "/video.mp4", // Replace with actual video URLs
+    description: "/thumb.png",
   },
   // Add more videos as needed
 ];
@@ -93,7 +99,7 @@ const VideoCarousel = () => {
                       <video
                         className="w-full rounded-lg"
                         controls
-                        poster="/thumb.png" // Optional thumbnail image
+                        poster={video.description} // Optional thumbnail image
                       >
                         <source src={video?.videoUrl} type="video/mp4" />
                         Your browser does not support the video tag.
