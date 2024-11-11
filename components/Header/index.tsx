@@ -35,7 +35,7 @@ const Header = () => {
           : ""
       }`}
     >
-      <div className="relative mx-auto max-w-[86.875rem]  border-t border-b border-white border-solid items-center justify-between px-4 md:px-8 xl:flex 2xl:px-0">
+      <div className="relative mx-auto max-w-[89%]  border-t border-b border-white border-solid items-center justify-between px-4 md:px-8 xl:flex 2xl:px-0">
         <div className="flex w-full items-center justify-between xl:w-1/4">
           <a href="/">
             <Image
@@ -96,7 +96,7 @@ const Header = () => {
           }`}
         >
           <nav>
-            <ul className="flex flex-col gap-5 xl:flex-row !text-white xl:items-center xl:gap-10">
+            <ul className="flex flex-col gap-5 xl:flex-row !text-black xl:items-center xl:gap-10">
               {menuData.map((menuItem, key) => (
                 <li key={key} className={menuItem.submenu && "group relative "}>
                   {menuItem.submenu ? (
