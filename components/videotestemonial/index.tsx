@@ -41,8 +41,8 @@ const videoData = [
 const VideoCarousel = () => {
   return (
     <>
-      <section className="flex  w-[94%] mx-auto">
-        <div className="w-4/12  p-[65px]">
+      <section className="md:flex  w-[94%] mx-auto">
+        <div className="md:w-4/12  md:p-[65px] p-5">
             <h2 className="font-inter text-4xl text-black font-bold leading-[58.09px] text-left underline-from-font decoration-skip-ink-none">See What’s Happening in Real Time</h2>
             <p className="pr-3  text-gray-900 font-extrabold ">Stay connected with us through Instagram Reels! </p>
                 <p className="flex gap-2 underline justify-center text-black font-extrabold ">Follow along and be part of the journey! <svg width="19" height="18" viewBox="0 0 19 18" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -52,7 +52,7 @@ const VideoCarousel = () => {
 </svg>
 </p>
         </div>
-            <div className="w-8/12"> 
+            <div className="md:w-8/12 p-5"> 
         <motion.div
           variants={{
             hidden: {

@@ -9,7 +9,7 @@ const Footer = () => {
 <br>
 </br>
 <footer>
-  <div className="w-[89%] mx-auto flex flex-wrap items-center justify-between mx-auto border-t border-b border-solid border-black">
+  <div className=" hidden md:flex w-[89%] mx-auto flex flex-wrap items-center justify-between mx-auto border-t border-b border-solid border-black">
         
         <div className="flex gap-[10px] md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
           <div className="px-4 py-6 md:flex md:items-center md:justify-between">
@@ -125,7 +125,7 @@ const Footer = () => {
                     <a href="#" className="hover:underline">Buy Book</a>
                 </li>
             </ul></div>
-            <div>
+            <div className="items-end flex ">
               <img src='/25.png'  className='w-[116px]'/>
             </div>
         </div>
