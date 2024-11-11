@@ -103,7 +103,7 @@ export default function Home() {
 
                   <div className='w-[91%] md:mt-[-130px] mt-[50px] mx-auto flex flex-col md:flex-row border border-black border-solid'>
                   <div className=' flex flex-col md:flex-row md:w-6/12 bg-white '>
-                        <div className='w-6/12  bg-[url("/30.png")] bg-cover w-auto bg-bottom  md:w-[256px] md:h-[313px]   border-t border-transparent '>
+                        <div className='w-6/12  bg-[url("/30.png")] bg-cover w-auto bg-bottom h-[313px] md:w-[256px] md:h-[313px]   border-t border-transparent '>
 
                             </div>
                             <div className='md:w-6/12 pl-[14px] grid justify-center leading-44 p-[49px]'>
