@@ -13,7 +13,8 @@ const Header = () => {
   const [stickyMenu, setStickyMenu] = useState(false);
 
   const pathUrl = usePathname();
-
+ console.log(pathUrl);
+ const isHomePage = pathUrl === "/";
   // Sticky menu
   const handleStickyMenu = () => {
     if (window.scrollY >= 80) {
@@ -29,17 +30,20 @@ const Header = () => {
 
   return (
     <header
-      className={`absolute left-0 top-5 z-99999 w-full  ${
-        stickyMenu
-          ? "bg-white !py-4 shadow transition duration-100 dark:bg-black"
-          : ""
-      }`}
-    >
+    className={` left-0 top-5 z-99999 w-full ${
+      stickyMenu
+        ? "bg-white !py-4 shadow transition duration-100 dark:bg-black"
+        : ""
+    } ${isHomePage ? "absolute" : ""}`}
+  >
       <div className="relative mx-auto max-w-[89%]  border-t border-b border-white border-solid items-center justify-between px-4 md:px-8 xl:flex 2xl:px-0">
         <div className="flex w-full items-center justify-between xl:w-1/4">
           <a href="/">
             <Image
-              src="/1 1.png"
+              // src="/1 1.png"
+              src={
+                isHomePage ? "/1 1.png" : "/logo.png"
+              }
               alt="logo"
               width={50.03}
               height={30}
@@ -96,7 +100,11 @@ const Header = () => {
           }`}
         >
           <nav>
-            <ul className="flex flex-col gap-5 xl:flex-row !text-black xl:items-center xl:gap-10">
+          <ul
+  className={`flex flex-col gap-5 xl:flex-row xl:items-center xl:gap-10 ${
+    isHomePage ? "!text-white" : ""
+  }`}
+>
               {menuData.map((menuItem, key) => (
                 <li key={key} className={menuItem.submenu && "group relative "}>
                   {menuItem.submenu ? (
