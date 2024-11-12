@@ -30,13 +30,17 @@ const Header = () => {
 
   return (
     <header
-    className={` left-0 top-5 z-99999 w-full ${
+    className={` left-0 top-5 z-99999 pt-6 w-full ${
       stickyMenu
         ? "bg-white !py-4 shadow transition duration-100 dark:bg-black"
         : ""
     } ${isHomePage ? "absolute" : ""}`}
   >
-      <div className="relative mx-auto max-w-[89%]  border-t border-b border-white border-solid items-center justify-between px-4 md:px-8 xl:flex 2xl:px-0">
+      {/* <div className="relative mx-auto max-w-[89%]  border-t border-b border-white border-solid items-center justify-between px-4 md:px-8 xl:flex 2xl:px-0"> */}
+       <div className={`relative mx-auto max-w-[89%]  border-t border-b  border-solid items-center justify-between px-4 md:px-8 xl:flex 2xl:px-0  ${
+    isHomePage ? "border-white" : "border-[#000000]"
+  }`}
+  >
         <div className="flex w-full items-center justify-between xl:w-1/4">
           <a href="/">
             <Image
@@ -101,12 +105,15 @@ const Header = () => {
         >
           <nav>
           <ul
-  className={`flex flex-col gap-5 xl:flex-row xl:items-center xl:gap-10 ${
-    isHomePage ? "!text-white" : ""
+  className={`flex flex-col gap-5 xl:flex-row xl:items-center xl:gap-10  ${
+    isHomePage ? "!text-white" : "!text-[#000000]"
   }`}
 >
               {menuData.map((menuItem, key) => (
-                <li key={key} className={menuItem.submenu && "group relative "}>
+               <li 
+               key={key} 
+               className={`${menuItem.submenu ? "group relative " : ""} ${pathUrl === menuItem.path ? "border-b-3 border-solid !border-b-3 !border-solid border-[#A1CF5F] !border-[#A1CF5F]" : ""}`}
+             >
                   {menuItem.submenu ? (
                     <>
                       <button
@@ -129,7 +136,7 @@ const Header = () => {
                         className={`dropdown ${dropdownToggler ? "flex z-99999" : ""}`}
                       >
                         {menuItem.submenu.map((item, key) => (
-                          <li key={key} className="text-black ">
+                          <li key={key} className="text-[#000000] ">
                             <Link href={item.path || "#"}>{item.title}</Link>
                           </li>
                         ))}
@@ -140,7 +147,7 @@ const Header = () => {
                       href={`${menuItem.path}`}
                       className={
                         pathUrl === menuItem.path
-                          ? "text-white"
+                          ? " "
                           : ""
                       }
                     >
@@ -192,10 +199,10 @@ const Header = () => {
               </a>
             </div>
           </div>
-          <button type="button" className="text-white border-white  border border-solid  bg-white-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm m-[14px] px-2 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+          <button type="button" className={ isHomePage ? "text-white border-white  border border-solid  bg-white-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm m-[14px] px-2 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800" :  "text-[#000000] border-black  border border-solid   hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm m-[14px] px-2 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800" }>
             Book
           </button>
-          <button type="button" className="  m-[13px] text-black bg-[#A1CF5F] hover:bg-[#A1CF5F]/90 focus:ring-4 focus:outline-none focus:ring-[#A1CF5F]/50 font-medium rounded-lg text-sm px-4 py-2 text-center dark:focus:ring-[#A1CF5F]/70">
+          <button type="button" className="  m-[13px] text-[#000000] bg-[#A1CF5F] hover:bg-[#A1CF5F]/90 focus:ring-4 focus:outline-none focus:ring-[#A1CF5F]/50 font-medium rounded-lg text-sm px-4 py-2 text-center dark:focus:ring-[#A1CF5F]/70">
             Donate Now
           </button>
           </div>
