@@ -230,7 +230,7 @@ export default function Home() {
                       <div className="mx-auto max-w-c-1390 px-4 md:px-8 2xl:px-0">
                       <h5 className="text-[48px] text-black text-center pb-[30px] font-bold pb-2">Our Partners</h5>
                       <h5 className="text-[15px] text-black text-center">Be the first to know about Cities Project Global news, programs, and impact</h5>
-                      <div className="flex flex-wrap justify-center gap-9 pt-[29px]">
+                      <div className="flex flex-wrap justify-center gap-2 w-[63%] mx-auto pt-[29px] ">
   <img src="/37.png" className="w-[150px] h-[150px] p-[33px] border border-[#e3e2e2] object-contain mx-auto" />
   <img src="/38.png" className="w-[150px] h-[150px] p-[33px] border border-[#e3e2e2] object-contain mx-auto" />
   <img src="/39.png" className="w-[150px] h-[150px] p-[33px] border border-[#e3e2e2] object-contain mx-auto" />
