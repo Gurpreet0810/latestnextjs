@@ -1,5 +1,8 @@
 // app/new-page/page.js
+
+import Newsletter from "@/components/Newsletter";
 import {  Anton } from "next/font/google";
+
 const anton = Anton({ weight: '400', subsets: ["latin"] }); 
 
 export default function NewPage() {
@@ -220,8 +223,8 @@ export default function NewPage() {
             <h4 className={` text-[15px] font-normal text-[#000000] `}>Culture-building is kingdom-building, and we need cities to be centers of influence in order to achieve greater global reach.
             </h4> </div>
           </section>
-          
-          <section>
+          <Newsletter />
+          {/* <section>
           <div className=" md:flex  mx-auto bg-[#000000] p-5">
                     <div className="md:w-6/12 md:p-30">
                     <strong className={`${anton.className} uppercase md:text-[55px] text-[41px] text-white font-light leading-[50px]`}>
@@ -241,7 +244,7 @@ export default function NewPage() {
                     </div>
 
                   </div>
-          </section>
+          </section> */}
       </main>
     );
   }

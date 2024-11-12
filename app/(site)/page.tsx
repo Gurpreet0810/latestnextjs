@@ -2,6 +2,8 @@ import { Metadata } from "next";
 import Slider from "react-slick";
 import Testimonial from "@/components/Testimonial";
 import VideoCarousel from "@/components/videotestemonial";
+import Newsletter from "@/components/Newsletter";
+
 import {  Anton } from "next/font/google";
 const anton = Anton({ weight: '400', subsets: ["latin"] }); 
 // import Hero from "@/components/Hero";
@@ -335,9 +337,9 @@ export default function Home() {
               <Testimonial />
               <VideoCarousel />
 
+                    <Newsletter/>
 
-
-              <div className=" md:flex w-[89%] mx-auto bg-[#000000] p-5">
+              {/* <div className=" md:flex w-[89%] mx-auto bg-[#000000] p-5">
                     <div className="md:w-6/12 md:p-30">
                     <strong className={`${anton.className} uppercase md:text-[55px] text-[41px] text-white font-light leading-[50px]`}>
                     Join Our<br /> Community of Culturemakers
@@ -355,7 +357,7 @@ export default function Home() {
                       </form>
                     </div>
 
-                  </div>
+                  </div> */}
                     {/* body end */}
 
                   </main>
