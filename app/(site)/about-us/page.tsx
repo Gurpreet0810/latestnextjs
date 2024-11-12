@@ -22,7 +22,7 @@ export default function NewPage() {
   worldwide are directly working in the religion sphere (ministry, missions, etc.), leaving the vast majority of believers engaged in other spheres of society, from arts to technology to government.
 </h3>
 
-<hr />
+<hr />  
 
            
             <div className="p-5 flex gap-6">
@@ -139,9 +139,23 @@ export default function NewPage() {
             </p>
             </div>
         </div>
-        <div className="w-1/2">
+        <div className="w-1/2 bg-contain bg-no-repeat bg-center bg-[url('/74.png')]  ">
             
         </div>  
+        </section>
+        <section className="flex">
+        <div className="w-1/2 bg-contain bg-no-repeat bg-center bg-[url('/75.png')]  ">
+            
+            </div>  
+        <div className="w-1/2 bg-[#000000] p-2 ">
+          <div className="border border-white border-solid p-8">  <h1 className="text-[40px] font-bold leading-[56px] text-[#C7EF92] " >Hugh Brandt</h1>
+            <p className="font-normal text-[15px]  text-white ">
+            Hugh has lived in 3 global cities for 40 years and has experienced  first-hand the major problems cities have. In his book “Why God Made  Cities”, Timothy Keller says, “If sin has twisted the city as it’s  twisted the family, and God invented the city, then we don’t abandon it – we build it.” He has experienced twisted problems of a city that can  feel overwhelming and beyond repair. He has also experienced city  leaders from different spheres of society successfully work together to  address these problems when their collaborative efforts reflect a  culture of love for one another. He believes in Isaiah 58:12: “You’ll be known as those who can fix anything, restore old ruins, rebuild and  renovate, make the community livable again.”
+</p>
+<p className="font-normal text-[15px] text-white ">In his role as Global City Consultant, he  has greatly enhanced our Flourishing Cities curriculum and has  facilitated this flagship product in over 40 cities around the world. He continues to lead our educational work and has recently begun to serve  as Chief Culture Officer.
+         </p>   </div>
+        </div>
+        
         </section>
 
 
