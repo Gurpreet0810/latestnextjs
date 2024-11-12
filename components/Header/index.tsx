@@ -112,7 +112,7 @@ const Header = () => {
               {menuData.map((menuItem, key) => (
                <li 
                key={key} 
-               className={`${menuItem.submenu ? "group relative " : ""} ${pathUrl === menuItem.path ? "border-b-3 border-solid !border-b-3 !border-solid border-[#A1CF5F] !border-[#A1CF5F]" : ""}`}
+               className={`${menuItem.submenu ? "group relative " : ""} ${pathUrl === menuItem.path ? "border-b-4 border-solid !border-b-4 !border-solid border-[#A1CF5F] !border-[#A1CF5F]" : ""}`}
              >
                   {menuItem.submenu ? (
                     <>
