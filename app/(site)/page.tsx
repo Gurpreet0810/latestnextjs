@@ -43,7 +43,7 @@ export default function Home() {
                         <img src="/banner.jpg" alt="banner" className="w-full md:h-[auto] h-[480px]" />
                         <div className="absolute top-1/2 left-6 transform -translate-y-1/2 text-white">
                       <h3 className="text-[9px] bg-[#fff] text-black text-center w-[55%] rounded-[20px] mb-[20px] md:mb-0"> Transform your workplace and community</h3>
-                        <strong className={`${anton.className} uppercase md:text-[85px] leading-[35px] text-[44px] font-light xl:leading-[101px]  md:leading-none`}>
+                        <strong className={`${anton.className} uppercase md:text-[85px] leading-[34px] text-[37px] font-light xl:leading-[101px]  md:leading-none`}>
                         Live Life<br />
                           With < br />
                           Purpose
@@ -53,7 +53,7 @@ export default function Home() {
                           </p>
                           <a
                             href="#"
-                            className=" flex  items-center gap-2.5 inline-block mt-4 bg-[#A1CF5F] font-bold text-black text-sm py-3 px-6 rounded-lg transition duration-300"
+                            className=" flex  items-center gap-2.5 inline-block md:mt-4 bg-[#A1CF5F] font-bold text-black text-sm py-3 px-6 rounded-lg transition duration-300"
                           >
                           Join Our Community of Culturemakers<svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" id="arrow">
                 <g fill="none" fillRule="evenodd" stroke="#000" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2">
@@ -62,7 +62,7 @@ export default function Home() {
               </svg>
                           </a>
                         
-                        </div> <img src='/49.png' className="absolute right-[17px] md:right-[55px]  md:w-[20%]   bottom-[6px] md:bottom-[53px] w-[40%]"/>
+                        </div> <img src='/49.png' className="absolute right-[17px] md:right-[55px]  md:w-[20%]   bottom-[8px] md:bottom-[53px] w-[40%]"/>
                       </div>
                     </div>
                   </section>
@@ -76,7 +76,7 @@ export default function Home() {
                       </h2>
                       <p className="text-gray-500 text-lg md:text-xl leading-relaxed mb-6 md:pl-2">
                       Cities Project Global is an international organization dedicated to awakening individuals to their God-given purpose. Become equipped to  live out your design and transform your community – no matter what your area of work is.</p>
-                      <div className="flex flex-col md:flex-row">
+                      <div className="flex flex-col md:flex-row md:mx-0 mx-auto">
                         <button className="w-full md:w-auto flex items-center gap-2.5 text-black     text-lg py-4 font-extrabold px-6 rounded mb-4 md:mb-0 md:mr-4">
                         Learn More
                         <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" id="arrow">
@@ -106,7 +106,7 @@ export default function Home() {
                         <div className='w-6/12  bg-[url("/30.png")] bg-cover w-auto bg-bottom h-[313px] md:w-[256px] md:h-[313px]   border-t border-transparent '>
 
                             </div>
-                            <div className='md:w-6/12 pl-[14px] grid justify-center leading-44 p-[49px]'>
+                            <div className='md:w-6/12 md:pl-[14px] grid justify-center leading-44 p-[49px] text-center md:text-left'>
                               <h1 className="text-[28px] text-black font-bold">Free workshop</h1>
                               <h5 className="text-[12px] text-black font-bold">Please sign up using the link below:</h5>
                               <hr className="w-[20px]" />
@@ -121,21 +121,21 @@ export default function Home() {
                       </div>
 
                       <div className='md:w-6/12 flex flex-col md:flex-row ' >
-                      <div className='md:w-6/12 pl-[14px] grid justify-center p-[23px] bg-[#224334]'>
+                      <div className='md:w-6/12 pl-[14px] grid justify-center md:text-left text-center p-[23px] bg-[#224334]'>
                       <h3 className="text-[28px] text-white font-bold">Leadership Circle</h3>
                       <h5 className="text-[12px] text-white font-bold">Flagship Program</h5>
-                      <hr className="w-[20px]" />
-                      <div className='flex flex-col md:flex-row md:gap-[10px] gap-[28px] items-end'>
+                      <hr className="w-[20px] md:mx-0 mx-auto" />
+                      <div className='flex flex-col md:flex-row md:gap-[10px] gap-[28px] items-center md:items-end'>
                       
                       <button className="md:w-1/2 float-left bg-[#A1CF5F] pl-[20px] pr-[20px] mt-[10px] h-[39px] rounded-[5px] text-black text-[13px]">Apply Now</button>
                       <img src="/30.png" alt="" className='md:w-1/2 ' />
                       </div>
                       </div>
-                      <div className='md:w-6/12 pl-[14px] grid justify-center p-[23px] bg-[#a1cf5f]'>
+                      <div className='md:w-6/12 pl-[14px] grid justify-center md:text-left text-center p-[23px] bg-[#a1cf5f]'>
                       <h3 className="text-[28px] text-black font-bold">VantagePoint™</h3>
                       <h5 className="text-[12px] text-black font-bold">A Small Group Discovery Series</h5>
-                      <hr className="w-[20px]" />
-                      <div className='flex flex-col md:flex-row md:gap-[10px] gap-[28px] items-end'>
+                      <hr className="w-[20px] md:mx-0 mx-auto" />
+                      <div className='flex flex-col md:flex-row md:gap-[10px] gap-[28px] items-center md:items-end'>
                       
                       <button className="md:w-1/2 md:float-left pl-[20px] pr-[20px] mt-[10px] bg-[#fff] h-[39px] rounded-[5px] text-black text-[13px]">Apply Now</button>
                       <img src="/31.png" alt="" className='md:w-1/2 ' />
@@ -212,12 +212,12 @@ export default function Home() {
                         <div className="md:w-8/12   p-10">
                         <img src='/36.png' className="" />
                         <div className="md:float-right md:mt-[-50px] mt-5 z-99999 relative" >
-                          <button className=" flex items-center gap-3 text-black bg-[#A1CF5F] font-bold p-2 rounded-[5px]">Buy Now <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" id="arrow">
+                          <button className=" mx-auto mt-[21px] md:mx-0 md:mt-0 flex items-center gap-3 text-black bg-[#A1CF5F] font-bold p-2 rounded-[5px]">Buy Now <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" id="arrow">
                 <g fill="none" fillRule="evenodd" stroke="#000" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2">
                   <path d="M1 13 13 1M4 1h9v9"></path>
                 </g>
               </svg></button><br className="hidden md:block" />
-                        <button className=" flex items-center  gap-3 text-black bg-white font-bold p-2 rounded-[5px]">Read a Sample Chapter <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" id="arrow">
+                        <button className="mx-auto mt-[21px] md:mx-0 md:mt-0   flex items-center  gap-3 text-black bg-white font-bold p-2 rounded-[5px]">Read a Sample Chapter <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" id="arrow">
                 <g fill="none" fillRule="evenodd" stroke="#000" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2">
                   <path d="M1 13 13 1M4 1h9v9"></path>
                 </g>
@@ -230,25 +230,26 @@ export default function Home() {
                       <div className="mx-auto max-w-c-1390 px-4 md:px-8 2xl:px-0">
                       <h5 className="text-[48px] text-black text-center pb-[30px] font-bold pb-2">Our Partners</h5>
                       <h5 className="text-[15px] text-black text-center">Be the first to know about Cities Project Global news, programs, and impact</h5>
-                      <div className="grid grid-cols-2 gap-9 pt-[29px] md:grid-cols-5 md:justify-center">
-                  <img src="/37.png" className="w-[150px] h-[150px] p-[33px] border border-[#e3e2e2] object-contain" />
-                  <img src="/38.png" className="w-[150px] h-[150px] p-[33px] border border-[#e3e2e2] object-contain" />
-                  <img src="/39.png" className="w-[150px] h-[150px] p-[33px] border border-[#e3e2e2] object-contain" />
-                  <img src="/40.png" className="w-[150px] h-[150px] p-[33px] border border-[#e3e2e2] object-contain" />
-                  <img src="/41.png" className="w-[150px] h-[150px]  p-[33px]  border border-[#e3e2e2] object-contain" />
-              </div>
+                      <div className="flex flex-wrap justify-center gap-9 pt-[29px]">
+  <img src="/37.png" className="w-[150px] h-[150px] p-[33px] border border-[#e3e2e2] object-contain mx-auto" />
+  <img src="/38.png" className="w-[150px] h-[150px] p-[33px] border border-[#e3e2e2] object-contain mx-auto" />
+  <img src="/39.png" className="w-[150px] h-[150px] p-[33px] border border-[#e3e2e2] object-contain mx-auto" />
+  <img src="/40.png" className="w-[150px] h-[150px] p-[33px] border border-[#e3e2e2] object-contain mx-auto" />
+  <img src="/41.png" className="w-[150px] h-[150px] p-[33px] border border-[#e3e2e2] object-contain mx-auto" />
 
-              <div className="grid pt-[29px] grid-cols-2 gap-9  md:grid-cols-4 md:flex-row items-center justify-center gap-9">
-                <img src="/43.png" className="w-[150px] h-[150px] p-[33px] mx-auto border border-[#e3e2e2] object-contain" />
-                <img src="/38.png" className="w-[150px] h-[150px] p-[33px]    border border-[#e3e2e2] object-contain" />
-                <img src="/37.png" className="w-[150px] h-[150px] p-[33px]   border border-[#e3e2e2] object-contain" />
-                <div className=" relative bg-black text-white p-[27px] w-[150px]   h-[150px] flex items-center justify-center">
-                  <div className="text-left absolute bottom-[15px] w-[89%]">
-                    <h5 className="text-[12px] font-bold pb-2">Become a Partner</h5>
-                    <h3 className="text-[10px] font-bold">Join Now!</h3>
-                  </div>
-                </div>
-              </div>
+  <img src="/43.png" className="w-[150px] h-[150px] p-[33px] border border-[#e3e2e2] object-contain mx-auto" />
+  <img src="/38.png" className="w-[150px] h-[150px] p-[33px] border border-[#e3e2e2] object-contain mx-auto" />
+  <img src="/37.png" className="w-[150px] h-[150px] p-[33px] border border-[#e3e2e2] object-contain mx-auto" />
+
+  <div className="relative bg-black text-white p-[27px] w-[150px] h-[150px] flex items-center justify-center mx-auto">
+    <div className="text-left absolute bottom-[15px] w-[89%]">
+      <h5 className="text-[12px] font-bold pb-2">Become a Partner</h5>
+      <h3 className="text-[10px] font-bold">Join Now!</h3>
+    </div>
+  </div>
+</div>
+
+
               {/* / */}
 
               <section className=" md:flex w-[97%] mt-[54px] mx-auto  items-center justify-center gap-9 bg-[#000]">
@@ -350,7 +351,7 @@ export default function Home() {
                         <input type="email" placeholder="Email" className="bg-transparent border border-[#f6f6f626] p-[10px]"  />
                         <label className="text-[12px]  pt-2 font-normal  text-left  decoration-slice">Please Confirm</label>
                         <p className="text-[15px]  p-2 font-normal  text-left  decoration-slice"><input type="checkbox" /> I want to subscribe to all CPG emails</p>
-                        <button type='submit' className="md:w-[18%] w-[25%] bg-[#A1CF5F] md:p-[8px] p-[10px] text-black rounded-[7px] text-[13px]">Submit</button>
+                        <button type='submit' className="mx-auto md:mx-0 md:w-[18%] w-[25%] bg-[#A1CF5F] md:p-[8px] p-[10px] text-black rounded-[7px] text-[13px]">Submit</button>
                       </form>
                     </div>
 

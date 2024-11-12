@@ -98,16 +98,16 @@ const Header = () => {
 
         {/* Nav Menu Start   */}
         <div
-          className={`invisible h-0 w-full items-center justify-between xl:visible xl:flex xl:h-auto xl:w-full ${
+          className={`invisible h-0 w-full  items-center justify-between xl:visible xl:flex xl:h-auto xl:w-full ${
             navigationOpen &&
             "navbar !visible mt-4 h-auto max-h-[400px] rounded-md bg-white p-7.5 shadow-solid-5 dark:bg-blacksection xl:h-auto xl:p-0 xl:shadow-none xl:dark:bg-transparent"
           }`}
         >
           <nav>
           <ul
-  className={`flex flex-col gap-5 xl:flex-row xl:items-center xl:gap-10  ${
-    isHomePage ? "!text-white" : "!text-[#000000]"
-  }`}
+  className={`flex flex-col gap-5 xl:flex-row xl:items-center xl:gap-10 ${
+    isHomePage ? "md:text-white text-[#000000]" : "text-[#000000]  "
+  } `}
 >
               {menuData.map((menuItem, key) => (
                <li 
@@ -159,14 +159,16 @@ const Header = () => {
             </ul>
           </nav>
 
-          <div className="flex gap-[10px] md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
+          <div className="flex md:gap-[10px] md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
           <div className="px-4 py-6 md:flex md:items-center md:justify-between">
             <div className="flex mt-4 sm:justify-center md:mt-0 space-x-5 rtl:space-x-reverse">
               <a href="#" className="text-gray-400 hover:text-gray-900 dark:hover:text-white">
               {/* <img src="/24.png" className="" alt="Flowbite Logo" /> */}
                 <span className="sr-only">Facebook page</span>
                 <svg width="10" height="18" viewBox="0 0 10 18" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M8.78609 9.33674H6.20974V17.5634H2.39045V9.33674H0.573242V6.11862H2.39045V4.03562C2.39045 2.54554 3.10239 0.212891 6.24514 0.212891L9.07716 0.224593V3.34909H7.02395C6.68568 3.34909 6.21368 3.51682 6.21368 4.22676V6.12252H9.12436L8.79003 9.34064L8.78609 9.33674Z" fill="white"/>
+<path d="M8.78609 9.33674H6.20974V17.5634H2.39045V9.33674H0.573242V6.11862H2.39045V4.03562C2.39045 2.54554 3.10239 0.212891 6.24514 0.212891L9.07716 0.224593V3.34909H7.02395C6.68568 3.34909 6.21368 3.51682 6.21368 4.22676V6.12252H9.12436L8.79003 9.34064L8.78609 9.33674Z" fill={
+    isHomePage ? "white" : "#000000"
+  } />
 </svg>
 
               </a>
@@ -174,13 +176,17 @@ const Header = () => {
               {/* LinkedIn Icon */}
               <a href="#" className="text-blue-700 hover:text-blue-900">
               <svg width="16" height="15" viewBox="0 0 16 15" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M16.0087 9.34546V14.9586H12.7283V9.71993C12.7283 8.40538 12.2563 7.5082 11.0645 7.5082C10.1559 7.5082 9.61704 8.11282 9.38104 8.69793C9.2945 8.90857 9.2709 9.19723 9.2709 9.48979V14.9586H5.98655C5.98655 14.9586 6.02981 6.08833 5.98655 5.16776H9.2709V6.55642C9.2709 6.55642 9.25517 6.57983 9.2473 6.58763H9.2709V6.55642C9.70751 5.88939 10.4863 4.93761 12.2288 4.93761C14.3882 4.93761 16.0087 6.33798 16.0087 9.34156V9.34546ZM0.892853 14.9586H4.17327V5.16776H0.892853V14.9586ZM4.27161 1.84822C4.27161 2.7727 3.51639 3.52554 2.58026 3.52554C1.64412 3.52554 0.888916 2.7766 0.888916 1.84822C0.888916 0.919842 1.64412 0.170898 2.58026 0.170898C3.51639 0.170898 4.27161 0.919842 4.27161 1.84822Z" fill="white"/>
+<path d="M16.0087 9.34546V14.9586H12.7283V9.71993C12.7283 8.40538 12.2563 7.5082 11.0645 7.5082C10.1559 7.5082 9.61704 8.11282 9.38104 8.69793C9.2945 8.90857 9.2709 9.19723 9.2709 9.48979V14.9586H5.98655C5.98655 14.9586 6.02981 6.08833 5.98655 5.16776H9.2709V6.55642C9.2709 6.55642 9.25517 6.57983 9.2473 6.58763H9.2709V6.55642C9.70751 5.88939 10.4863 4.93761 12.2288 4.93761C14.3882 4.93761 16.0087 6.33798 16.0087 9.34156V9.34546ZM0.892853 14.9586H4.17327V5.16776H0.892853V14.9586ZM4.27161 1.84822C4.27161 2.7727 3.51639 3.52554 2.58026 3.52554C1.64412 3.52554 0.888916 2.7766 0.888916 1.84822C0.888916 0.919842 1.64412 0.170898 2.58026 0.170898C3.51639 0.170898 4.27161 0.919842 4.27161 1.84822Z" fill={
+    isHomePage ? "white" : "#000000"
+  }/>
 </svg>
 
               </a>
 
               <a href="#" className="text-pink-500 hover:text-pink-700">
-              <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="17" height="16" viewBox="0 0 56.7 56.7" fill="white">
+              <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="17" height="16" viewBox="0 0 56.7 56.7" fill={
+    isHomePage ? "white" : "#000000"
+  }>
   <g>
     <path d="M28.2,16.7c-7,0-12.8,5.7-12.8,12.8s5.7,12.8,12.8,12.8S41,36.5,41,29.5S35.2,16.7,28.2,16.7z M28.2,37.7
       c-4.5,0-8.2-3.7-8.2-8.2s3.7-8.2,8.2-8.2s8.2,3.7,8.2,8.2S32.7,37.7,28.2,37.7z"/>

@@ -13,12 +13,12 @@ const SingleTestimonial = ({ review }: { review: Testimonial }) => {
 </svg></div>
 
          <blockquote>
-             <p className="text-2xl font-medium text-gray-900 dark:text-white">Leadership Circle has affected my understanding of my journey. It didn’t bring a dramatic change because I was already on the road, but it helped me understand the journey that I was on. </p>
+             <p className="text-2xl font-medium text-gray-900 dark:text-white text-center p-[10px]">Leadership Circle has affected my understanding of my journey. It didn’t bring a dramatic change because I was already on the road, but it helped me understand the journey that I was on. </p>
          </blockquote>
          <figcaption className="flex items-center justify-center mt-6 space-x-3">
              <div className=" items-center ">
-                 <div className="pr-3  text-gray-900 font-extrabold dark:text-white"> Mona D.</div>
-                 <div className=" text-sm font-light text-gray-500 dark:text-gray-400">(Education Sphere, Egypt)</div>
+                 <div className="md:pr-3  text-gray-900 font-extrabold dark:text-white  text-center md:text-left"> Mona D.</div>
+                 <div className=" text-sm font-light text-gray-500 dark:text-gray-400  text-center md:text-left">(Education Sphere, Egypt)</div>
              </div>
          </figcaption>
      </figure>
