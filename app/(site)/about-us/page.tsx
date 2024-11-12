@@ -34,10 +34,10 @@ export default function NewPage() {
                                       <h4 className="text-[13px] text-black font-normal leading-[18px] text-left">
                                       That represents an enormous opportunity to create culturally widespread impact, but roughly 65% of believers are disengaged from their work and view it as separate from their faith. This reveals that most Christians don’t realize that work was designed by God as a partnered effort toward restoring the world to its original  goodness. But when people do realize that faith and work are designed by God to be integrated, work becomes an act of worship, and everything changes – lives, families, and entire.
                                       </h4>
-                                      <p className="text-[12px] pt-[19px] md:w-[57%] text-black  font-bold leading-[18px] text-left">
+                                      <p className="text-[12px] pt-[19px] md:w-[57%] text-black  font-bold leading-[18px] text-left pb-3 md:pb-0">
                                       We’re here to help leaders identify their unique position in God’s story and fully integrate their faith and work lives, enabling them to impact their communities and cities on a systemic level.
                                       </p>
-                                      <a href="#" className=" flex  items-center gap-2.5 w-[fit-content] inline-block mt-4 bg-[#A1CF5F] font-bold text-black text-sm py-3 px-6 rounded-lg transition duration-300">Read a Sample Chapter<svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" id="arrow"><g fill="none" fill-rule="evenodd" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M1 13 13 1M4 1h9v9"></path></g></svg></a>
+                                      <a href="#" className=" flex mx-auto md:mx-0 items-center gap-2.5 w-[fit-content] inline-block mt-4 bg-[#A1CF5F] font-bold text-black text-sm py-3 px-6 rounded-lg transition duration-300">Read a Sample Chapter<svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" id="arrow"><g fill="none" fill-rule="evenodd" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M1 13 13 1M4 1h9v9"></path></g></svg></a>
                                     </div>
                                   </div>
                                 </div>
@@ -55,10 +55,10 @@ export default function NewPage() {
                  <section className="md:flex py-[32px]">  
                           <div className="md:w-1/2 relative">
                               <div className="md:absolute p-10 md:p-0    bottom-0  text-black font-bold">
-                                 <h3 className="  md:w-[57%] text-black font-bold">
+                                 <h3 className="  md:w-[57%] text-black font-bold text-center md:text-left">
                                 We need these leaders positioned across all areas of society.
                                 </h3>
-                                <a href="#" className=" flex  items-center gap-2.5 w-[fit-content] text-center inline-block mt-4 bg-[#A1CF5F] font-bold text-black text-sm py-3 px-6 rounded-lg transition duration-300">Apply Now<svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" id="arrow"><g fill="none" fill-rule="evenodd" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M1 13 13 1M4 1h9v9"></path></g></svg></a>
+                                <a href="#" className=" mx-auto md:mx-0 flex  items-center gap-2.5 w-[fit-content] text-center inline-block mt-4 bg-[#A1CF5F] font-bold text-black text-sm py-3 px-6 rounded-lg transition duration-300">Apply Now<svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" id="arrow"><g fill="none" fill-rule="evenodd" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M1 13 13 1M4 1h9v9"></path></g></svg></a>
                                 </div>
                             </div>
                             <div className="md:w-1/2 p-10 pb-0"> 
@@ -116,7 +116,7 @@ export default function NewPage() {
                         <h1 className="md:text-[38px]  text-[25px] font-bold text-center text-black md:w-[52%] p-5 mx-auto leading-[49px]">What is cities project global</h1>
                         <div className="relative mx-auto table"> 
                             <img src="/72.png" alt="" />
-                            <div className="md:absolute bottom-0 p-5">
+                            <div className="md:absolute bottom-0 p-5 text-center md:text-left">
                                 <h2 className="md:text-[45px]  text-[30px] font-bold text-black md:text-white md:w-[32%] leading-[49px]">Join the Movement </h2>
                                 <p className="font-normal text-[15px]  text-black  md:text-white md:w-[72%]"> Become a part of the global effort to integrate faith and work, impacting cities and communities around the world. </p>
                                 
@@ -202,7 +202,7 @@ export default function NewPage() {
           </section>
 
           <section className="mx-auto grid gap-[37px] md:p-0 p-8 md:pt-[100px] md:pb-[50px] ">
-                <h1 className={`text-black text-[35px] leading-[35px] mx-auto  md:w-[40%] font-bold`}>We need to focus on cities as influential centers of Kingdom culture</h1>
+                <h1 className={`text-black text-[35px] leading-[35px] mx-auto text-center md:text-left md:w-[40%] font-bold`}>We need to focus on cities as influential centers of Kingdom culture</h1>
                 <h4 className={` text-[15px] font-normal  mx-auto  md:w-[40%] text-[#000000] `}>About half of the world’s population  lives in cities around the globe, and by 2050 that proportion will  increase to about 66%. From a quantitative perspective, in order to  reach the highest number of people, targeting cities is crucial.
                 </h4><h4 className="text-black text-[18px]  mx-auto  md:w-[40%] font-bold">
                 But that’s not all.
