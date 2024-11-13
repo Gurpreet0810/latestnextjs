@@ -107,7 +107,7 @@ export default function Home() {
             </div>
             <div className="container mx-auto">               <div className='w-[91%] md:mt-[-130px] mt-[50px] mx-auto flex flex-col md:flex-row border border-black border-solid'>
                   <div className=' flex flex-col md:flex-row md:w-6/12 bg-white '>
-                        <div className='w-6/12  bg-[url("/30.png")] bg-cover w-auto bg-bottom h-[313px] md:w-[256px] md:h-[313px]   border-t border-transparent '>
+                        <div className='w-6/12  bg-[url("/30.png")] bg-no-repeat bg-cover w-auto bg-bottom h-[313px] md:w-[256px] md:h-[313px]   border-t border-transparent '>
 
                             </div>
                             <div className='md:w-6/12 md:pl-[14px] grid justify-center leading-44 p-[49px] text-center md:text-left'>
@@ -235,7 +235,7 @@ export default function Home() {
                       <div className="mx-auto max-w-c-1390 px-4 md:px-8 2xl:px-0">
                       <h5 className="text-[48px] text-black text-center pb-[30px] font-bold pb-2">Our Partners</h5>
                       <h5 className="text-[15px] text-black text-center">Be the first to know about Cities Project Global news, programs, and impact</h5>
-                      <div className="flex flex-wrap justify-center gap-2 w-[63%] mx-auto pt-[29px] ">
+                      <div className="grid grid-cols-2 sm:flex sm:flex-wrap justify-center gap-2 w-[63%] mx-auto pt-[29px]">
   <img src="/37.png" className="w-[150px] h-[150px] p-[33px] border border-[#e3e2e2] object-contain mx-auto" />
   <img src="/38.png" className="w-[150px] h-[150px] p-[33px] border border-[#e3e2e2] object-contain mx-auto" />
   <img src="/39.png" className="w-[150px] h-[150px] p-[33px] border border-[#e3e2e2] object-contain mx-auto" />
@@ -253,6 +253,7 @@ export default function Home() {
     </div>
   </div>
 </div>
+
 
 
               {/* / */}
