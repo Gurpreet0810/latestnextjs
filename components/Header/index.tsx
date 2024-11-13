@@ -36,7 +36,7 @@ const Header = () => {
       stickyMenu
         ? "bg-white !py-4 shadow transition duration-100 dark:bg-black"
         : ""
-    } ${isHomePage ? "absolute" : "m-2"}`}
+    } ${isHomePage ? "absolute" : "mt-2"}`}
   >
       {/* <div className="relative mx-auto max-w-[89%]  border-t border-b border-white border-solid items-center justify-between px-4 md:px-8 xl:flex 2xl:px-0"> */}
        <div className={`relative mx-auto max-w-[89%]  border-t border-b  border-solid items-center justify-between px-4 md:px-8 xl:flex 2xl:px-0  ${

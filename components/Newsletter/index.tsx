@@ -6,13 +6,13 @@ export default function Newsletter() {
   return (
     <div className="container mx-auto" ><div className=" md:flex w-[89%] mx-auto bg-[#000000] p-5">
                     <div className="md:w-6/12 md:p-30">
-                    <strong className={`${anton.className} uppercase md:text-[55px] text-[41px] text-white font-light leading-[50px]`}>
+                    <h3 className={`${anton.className} uppercase  text-center md:text-left md:text-[55px] text-[41px] text-white font-light leading-[50px]`}>
                     Join Our<br /> Community of Culturemakers
-                    </strong>
-                    <p className="text-white">Be the first to know about Cities <br / > Project Global news, programs, <br /> and impact</p>
+                    </h3>
+                    <p className="text-white  text-center md:text-left">Be the first to know about Cities <br / > Project Global news, programs, <br /> and impact</p>
                     </div>
                     <div className="md:w-6/12 md:p-15 p-5 md:border-l md:border-[#dbdbdb78]">
-                      <p className="text-white  pb-[20px] font-extrabold text-[18px]">Become a Culturemaker <br /><span className="font-normal text-[#A1CF5F]">Join Us Today!</span></p>
+                      <p className="text-white  pb-[20px]  text-center md:text-left font-extrabold text-[18px]">Become a Culturemaker <br /><span className=" text-center md:text-left font-normal text-[#A1CF5F]">Join Us Today!</span></p>
                       <form action="#" className="grid gap-[1px]">
                         <input type="text" placeholder="Name" className="bg-transparent border border-[#f6f6f626] p-[10px]" /><br/>
                         <input type="email" placeholder="Email" className="bg-transparent border border-[#f6f6f626] p-[10px]"  />
