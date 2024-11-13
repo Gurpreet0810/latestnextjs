@@ -41,7 +41,7 @@ const videoData = [
 const VideoCarousel = () => {
   return (
     <>
-      <section className="md:flex  w-[94%] mx-auto">
+    <div className="container mx-auto">   <section className="md:flex  w-[94%] mx-auto">
         <div className="md:w-4/12  md:p-[65px] p-5">
             <h2 className="font-inter text-4xl text-black font-bold leading-[42.09px] md:leading-[58.09px] text-left underline-from-font decoration-skip-ink-none">See What’s Happening in Real Time</h2>
             <p className="pr-3  text-gray-900 font-extrabold ">Stay connected with us through Instagram Reels! </p>
@@ -114,6 +114,7 @@ const VideoCarousel = () => {
         </motion.div>
         </div>
       </section>
+      </div>
     </>
   );
 };

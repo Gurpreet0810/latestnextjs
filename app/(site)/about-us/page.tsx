@@ -14,7 +14,7 @@ export default function NewPage() {
                   <img src="/55.png" className=" mx-auto" alt="" />
                   </section >
 
-                <section className="md:flex md:py-[32px] ">
+              <div className="container mx-auto">  <section className="md:flex md:py-[32px] ">
                                 <div className="md:w-2/3 ">
                                 <h3 className="text-[23px] text-black leading-[36px] p-[22px]">
                         According to Barna Research, only 1% of Christians
@@ -48,13 +48,15 @@ export default function NewPage() {
                                 <img src="/57.png" alt="" />
                                   </div>
              </section>
+             </div>
 
+             <div className="container mx-auto">
              <section className="md:py-[42px]">
                   <img src="/64.png" alt="" className="mx-auto" />
              </section>
+            </div>
 
-
-
+            <div className="container mx-auto">
                  <section className="md:flex py-[32px]">  
                           <div className="md:w-1/2 relative">
                               <div className="md:absolute p-10 md:p-0    bottom-0  text-black font-bold">
@@ -78,6 +80,8 @@ export default function NewPage() {
 
 
                </section>
+               </div>
+               <div className="container mx-auto">
                   <section className=" pt-10 py-[32px]">
                                     <div className="mx-auto max-w-c-1390 px-4 md:px-8 2xl:px-0">
                                     <div className="grid grid-cols-2 gap-9 pt-[29px] md:grid-cols-7 md:justify-center">
@@ -112,9 +116,9 @@ export default function NewPage() {
                             </div>
                             </div>
                        </section>
+                       </div>
 
-
-              
+              <div className="container mx-auto">
                   <section className="md:py-[32px] ">
                         <h1 className="md:text-[38px]  text-[25px] font-bold text-center text-black md:w-[52%] p-5 mx-auto leading-[49px]">What is cities project global</h1>
                         <div className="relative mx-auto table"> 
@@ -129,7 +133,8 @@ export default function NewPage() {
                             </div>
                         </div>
                   </section>
-
+                  </div>
+                  <div className="container mx-auto">
                 <section className="md:flex pt-[32px] grid">
                         <div className="md:w-1/2 bg-[#000000] p-2 md:order-1 order-2">
                           <div className="border border-white border-solid p-8">  <h1 className="text-[40px]  leading-[56px] font-bold  text-[#C7EF92] " >Bob Varney</h1>
@@ -149,7 +154,9 @@ export default function NewPage() {
                             
                         </div>  
                 </section>
-               <section className="md:flex pb-[32px]">
+                </div>
+                <div className="container mx-auto">
+                  <section className="md:flex pb-[32px]">
                       <div className="md:w-1/2 bg-contain bg-[#d3d3d3] md:h-auto h-[350px] w-auto bg-no-repeat bg-center bg-[url('/75.png')]  ">
                           
                           </div>  
@@ -163,15 +170,16 @@ export default function NewPage() {
                       </div>
         
               </section>
-
-            <section className="mx-auto grid gap-[37px] pt-[100px] pb-[100px] ">
+          </div>
+          <div className="container mx-auto">  <section className="mx-auto grid gap-[37px] pt-[100px] pb-[100px] ">
               <img src="76.png" className="mx-auto" />
               <h1 className={`${anton.className} text-[30px] font-normal  text-center text-[#000000] leading-[40px] w-[90%] md:w-[57%] mx-auto`}>We see a world where leaders live out  their calling, transforming their cities into flourishing centers for  the common good of all people.</h1>
               <h4 className={`${anton.className} text-[20px] font-normal  text-center text-[#aed575]`}>Just as God Intended</h4>
             </section>
+            </div>
 
 
-            <section className="bg-[#F5F5F5] p-[34px]  md:pt-[0px]">
+            <div className="container mx-auto"> <section className="bg-[#F5F5F5] p-[34px]  md:pt-[0px]">
                     <div className="md:flex">
                       
                               <div className="md:w-[40%]  grid justify-center items-center">
@@ -202,9 +210,9 @@ export default function NewPage() {
                                 </h3>
                                 <a href="#" className=" flex  gap-2.5 w-[fit-content] text-center inline-block mt-4 bg-[#A1CF5F] font-bold text-black text-sm py-3 px-4 rounded-lg transition duration-300">Join Our Community of Culturemakers <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" id="arrow"><g fill="none" fill-rule="evenodd" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M1 13 13 1M4 1h9v9"></path></g></svg></a>
                                 </div>     
-          </section>
+          </section></div>
 
-          <section className="mx-auto grid gap-[37px] md:p-0 p-8 md:pt-[100px] md:pb-[50px] ">
+          <div className="container mx-auto"><section className="mx-auto grid gap-[37px] md:p-0 p-8 md:pt-[100px] md:pb-[50px] ">
                 <h1 className={`text-black text-[35px] leading-[35px] mx-auto text-center md:text-left md:w-[40%] font-bold`}>We need to focus on cities as influential centers of Kingdom culture</h1>
                 <h4 className={` text-[15px] font-normal  mx-auto  md:w-[40%] text-[#000000] `}>About half of the world’s population  lives in cities around the globe, and by 2050 that proportion will  increase to about 66%. From a quantitative perspective, in order to  reach the highest number of people, targeting cities is crucial.
                 </h4><h4 className="text-black text-[18px]  mx-auto  md:w-[40%] font-bold">
@@ -212,6 +220,8 @@ export default function NewPage() {
                 </h4 ><h4 className={` text-[15px] font-normal  mx-auto  md:w-[40%] text-[#000000] `}>
                 Cities are hubs of cultural influence; what begins in a city often  radiates to surrounding areas and even catches on in other cities.  Nearly every cultural, political, artistic or social movement has its  roots in the city.</h4>
            </section>
+           </div>
+           <div className="container mx-auto">
           <section className="md:flex w-[80%] mx-auto pb-[100px]">
             <div className="md:w-1/2 ">
             <img src="/82.png" alt="" />
@@ -223,6 +233,7 @@ export default function NewPage() {
             <h4 className={` text-[15px] font-normal text-[#000000] `}>Culture-building is kingdom-building, and we need cities to be centers of influence in order to achieve greater global reach.
             </h4> </div>
           </section>
+          </div>
           <Newsletter />
           {/* <section>
           <div className=" md:flex  mx-auto bg-[#000000] p-5">

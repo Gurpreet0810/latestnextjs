@@ -70,6 +70,7 @@ export default function Home() {
                   </section>
 
 
+                  <div className="container mx-auto">
                   <div className="flex md:p-[105px] md:pb-[180px] flex-col md:flex-row h-full bg-cover bg-center bg-[url('/28.png')]">
                     <div className=" w-full md:w-1/2 p-6 md:p-16 flex flex-col justify-center">
                       <h2 className="font-bold text-gray-800 text-3xl md:text-5xl leading-tight mb-4">
@@ -102,8 +103,9 @@ export default function Home() {
 
                     </div>
                   </div>
-
-                  <div className='w-[91%] md:mt-[-130px] mt-[50px] mx-auto flex flex-col md:flex-row border border-black border-solid'>
+                 
+            </div>
+            <div className="container mx-auto">               <div className='w-[91%] md:mt-[-130px] mt-[50px] mx-auto flex flex-col md:flex-row border border-black border-solid'>
                   <div className=' flex flex-col md:flex-row md:w-6/12 bg-white '>
                         <div className='w-6/12  bg-[url("/30.png")] bg-cover w-auto bg-bottom h-[313px] md:w-[256px] md:h-[313px]   border-t border-transparent '>
 
@@ -144,9 +146,9 @@ export default function Home() {
                       </div>
                       </div>
                 </div>
-                </div>
+                </div></div>
 
-                <div className="container w-[89%] mx-auto pt-[100px] pb-[100px]">
+                <div className="container mx-auto">  <div className="container w-[89%] mx-auto pt-[100px] pb-[100px]">
                           <h1 className="text-[36px] text-black font-bold leading-[40.09px] text-center">
                           Confused over your calling?<br />
                           Is ministry the only work that 'counts'?
@@ -196,10 +198,10 @@ export default function Home() {
                     </div>
                   </div>
               </div>
+            </div>
 
 
-
-                      <div className="flex flex-col md:flex-row w-[89%] mx-auto items-center rounded-[5px]" style={{ backgroundColor: 'rgb(3, 4, 2)' }}>
+                 <div className="container mx-auto" >     <div className="flex flex-col md:flex-row w-[89%] mx-auto items-center rounded-[5px]" style={{ backgroundColor: 'rgb(3, 4, 2)' }}>
                         <div className="md:w-4/12 p-[40px]">
                         <h3 className="text-[15px] bg-[#fff] text-black font-bold text-center w-[45%] rounded-[20px]">About the Book</h3>
                           <h5 className="text-[35px] text-[#A1CF5F]   pb-[15px] font-bold pt-[20px] leading-10 ">THE INTERSECTION</h5>
@@ -227,8 +229,9 @@ export default function Home() {
                         </div>
                         </div>
                       </div>
+                      </div>
 
-                      <section className="pt-[150px] border border-x-0 border-y-stroke bg-alabaster py-11 dark:border-y-strokedark dark:bg-black">
+                    <div className="container mx-auto" >  <section className="pt-[150px] border border-x-0 border-y-stroke bg-alabaster py-11 dark:border-y-strokedark dark:bg-black">
                       <div className="mx-auto max-w-c-1390 px-4 md:px-8 2xl:px-0">
                       <h5 className="text-[48px] text-black text-center pb-[30px] font-bold pb-2">Our Partners</h5>
                       <h5 className="text-[15px] text-black text-center">Be the first to know about Cities Project Global news, programs, and impact</h5>
@@ -269,8 +272,9 @@ export default function Home() {
 
                       </div>
                     </section>
+                    </div>
 
-                  <div className="w-[100%] mx-auto">
+           <div className='container mx-auto'>      <div className="w-[100%] mx-auto">
                   <h2 className="font-inter text-4xl font-bold leading-[58.09px] p-8 text-black text-left text-center decoration-skip-ink-none">Stories of Transformation</h2>
                   <div className=" md:flex">
                     <div className=" md:w-3/12 relative grid place-items-center p-10"> 
@@ -308,7 +312,7 @@ export default function Home() {
                   <img src='/48.png' className="table p-[61px] items-center m-auto" />
                   </div>
 
-                  
+                  </div> 
                   {/* <section className="bg-white dark:bg-gray-900 bg-[#F5F5F5] w-[90%] mx-auto">
                 <div className="max-w-screen-xl px-4 py-8 mx-auto text-center lg:py-16 lg:px-6">
                     <figure className="max-w-screen-md mx-auto">

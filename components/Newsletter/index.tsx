@@ -4,7 +4,7 @@ const anton = Anton({ weight: '400', subsets: ["latin"] });
 export default function Newsletter() {
   
   return (
-    <div className=" md:flex w-[89%] mx-auto bg-[#000000] p-5">
+    <div className="container mx-auto" ><div className=" md:flex w-[89%] mx-auto bg-[#000000] p-5">
                     <div className="md:w-6/12 md:p-30">
                     <strong className={`${anton.className} uppercase md:text-[55px] text-[41px] text-white font-light leading-[50px]`}>
                     Join Our<br /> Community of Culturemakers
@@ -23,5 +23,6 @@ export default function Newsletter() {
                     </div>
 
                   </div>
+                  </div>  
   );
 }
