@@ -101,13 +101,13 @@ const Footer = () => {
       </div>
 
       
-    <div className="mx-auto w-full max-w-screen-xl">
+    <div className="mx-auto w-full">
       <div className="grid grid-cols-2 gap-8 px-4 py-6 lg:py-8 md:grid-cols-4">
         <div className="grid justify-center items-center">
             <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Programs</h2>
             <ul className="text-gray-500 dark:text-gray-400 font-medium">
                 <li className="mb-4">
-                    <a href="#" className=" hover:underline">Global Leadership Circle</a>
+                    <a href="#" className=" hover:underline">Global Leadership <br className="md:hidden block" /> Circle</a>
                 </li>
                 <li className="mb-4">
                     <a href="#" className="hover:underline">VantagePoint™</a>
@@ -115,17 +115,17 @@ const Footer = () => {
                 
             </ul>
         </div>
-        <div className=" flex">
+        <div className=" flex justify-center items-center">
           <div className="grid justify-center items-center">  <h2 className="  mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">About the Book</h2>
             <ul className="text-gray-500 dark:text-gray-400 font-medium">
                 <li className="mb-4">
-                    <a href="#" className="hover:underline">Read a Sample Chapter</a>
+                    <a href="#" className="hover:underline">Read a Sample  <br className="md:hidden block" />  Chapter</a>
                 </li>
                 <li className="mb-4">
                     <a href="#" className="hover:underline">Buy Book</a>
                 </li>
             </ul></div>
-            <div className="items-end flex ">
+            <div className="items-end  hidden md:flex">
               <img src='/25.png'  className='w-[116px]'/>
             </div>
         </div>

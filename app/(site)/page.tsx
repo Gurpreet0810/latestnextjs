@@ -6,19 +6,7 @@ import Newsletter from "@/components/Newsletter";
 
 import {  Anton } from "next/font/google";
 const anton = Anton({ weight: '400', subsets: ["latin"] }); 
-// import Hero from "@/components/Hero";
-// import Brands from "@/components/Brands";
-// import Feature from "@/components/Features";
-// import About from "@/components/About";
-// import FeaturesTab from "@/components/FeaturesTab";
-// import FunFact from "@/components/FunFact";
-// import Integration from "@/components/Integration";
-// import CTA from "@/components/CTA";
-// import FAQ from "@/components/FAQ";
-// import Pricing from "@/components/Pricing";
-// import Contact from "@/components/Contact";
-// import Blog from "@/components/Blog";
-// import Testimonial from "@/components/Testimonial";
+
 
 export const metadata: Metadata = {
   title: "Next.js Starter Template for SaaS Startups - Solid SaaS Boilerplate",
@@ -42,12 +30,12 @@ export default function Home() {
               <section className="w-full">
                     <div className="container-fluid mx-auto">
                       <div className="relative w-full">
-                        <img src="/banner.jpg" alt="banner" className="w-full md:h-[auto] h-[480px]" />
-                        <div className="absolute top-1/2 left-6 transform -translate-y-1/2 text-white">
+                        <img src="/banner.jpg" alt="banner" className="w-full md:h-[auto] h-[350px]" />
+                        <div className="absolute top-1/2 left-9 transform -translate-y-1/2 text-white">
                       <h3 className="text-[9px] bg-[#fff] text-black text-center w-[55%] rounded-[20px] mb-[20px] md:mb-0"> Transform your workplace and community</h3>
                         <strong className={`${anton.className} uppercase md:text-[85px] leading-[34px] text-[37px] font-light xl:leading-[101px]  md:leading-none`}>
-                        Live Life<br />
-                          With < br />
+                        Live Life<br className="hidden md:block" />
+                          With < br className="hidden md:block" />
                           Purpose
                           </strong>
                           <p className="mt-2 font-light xl:leading-6 md:leading-none">
@@ -55,7 +43,7 @@ export default function Home() {
                           </p>
                           <a
                             href="#"
-                            className=" flex  items-center gap-2.5 inline-block md:mt-4 bg-[#A1CF5F] font-bold text-black text-sm py-3 px-6 rounded-lg transition duration-300"
+                            className=" flex w-fit  items-center gap-2.5 inline-block md:mt-4 bg-[#A1CF5F] font-bold text-black  text-[13px] md:text-sm py-1 md:py-3 px-6 rounded-lg transition duration-300"
                           >
                           Join Our Community of Culturemakers<svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" id="arrow">
                 <g fill="none" fillRule="evenodd" stroke="#000" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2">
@@ -64,7 +52,7 @@ export default function Home() {
               </svg>
                           </a>
                         
-                        </div> <img src='/49.png' className="absolute right-[17px] md:right-[55px]  md:w-[20%]   bottom-[8px] md:bottom-[53px] w-[40%]"/>
+                        </div> <img src='/49.png' className="hidden md:block absolute right-[17px] md:right-[55px]  md:w-[20%]   bottom-[8px] md:bottom-[53px] w-[40%]"/>
                       </div>
                     </div>
                   </section>
@@ -95,7 +83,7 @@ export default function Home() {
                       <div className="inner_Sec_div relative">
                             <div className='flex flex-col '>
                             
-                              <img src='/Group 805.png' className='w-3/12 bottom-0  p-4 h-auto absolute md:absolute' />
+                              <img src='/Group 805.png' className='md:w-3/12 w-[37%] bottom-0  p-4 h-auto absolute md:absolute' />
                               <img src='/26.png' className='w-8/12  p-4  self-end ' />
                             </div>
 
@@ -132,7 +120,7 @@ export default function Home() {
                       <div className='flex flex-col md:flex-row md:gap-[10px] gap-[28px] items-center md:items-end'>
                       
                       <button className="md:w-1/2 float-left bg-[#A1CF5F] pl-[20px] pr-[20px] mt-[10px] h-[39px] rounded-[5px] text-black text-[13px]">Apply Now</button>
-                      <img src="/30.png" alt="" className='md:w-1/2 ' />
+                      <img src="/103.jpg" alt="" className='md:w-1/2 ' />
                       </div>
                       </div>
                       <div className='md:w-6/12 pl-[14px] grid justify-center md:text-left text-center p-[23px] bg-[#a1cf5f]'>
@@ -148,21 +136,21 @@ export default function Home() {
                 </div>
                 </div></div>
 
-                <div className="container mx-auto">  <div className="container w-[89%] mx-auto pt-[100px] pb-[100px]">
-                          <h1 className="text-[36px] text-black font-bold leading-[40.09px] text-center">
-                          Confused over your calling?<br />
+                <div className="container mx-auto">  <div className="container w-[89%] mx-auto pt-[30px] pt-[30px] md:pt-[100px] md:pb-[100px]">
+                          <h1 className="text-[30px] md:text-[36px]  text-black font-bold leading-[40.09px] text-center">
+                          Confused over your calling?<br className="hidden md:block" />
                           Is ministry the only work that 'counts'?
                           </h1>
                     <div className=" pl-[14px] flex items-center p-[23px] ">
-                        <div className=" md:w-6/12 flex md:items-center md:justify-center">
+                        <div className=" md:w-6/12 md:flex md:items-center md:justify-center">
                               <div className=" md:w-6/12 p-2" >
-                                  <img src="/32.png" alt="" className='md:h-auto h-[100%]' />
+                                  <img src="/32.png" alt="" className='md:h-auto mx-auto md:mx-0 h-[100%]' />
                                 </div>
 
                           <div className=" md:w-6/12 ">
-                              <h3 className="text-[13px] bg-[#a1cf5f] text-black text-center w-[55%] rounded-[20px]">Be Awakened</h3>
-                              <h5 className="text-[15px] pt-3 text-black font-bold">Gain a New Perspective</h5>
-                              <p className="text-[12px] text-black leading-normal">Our programs are built on a bedrock of scripture, 
+                              <h3 className="text-[13px] bg-[#a1cf5f] text-black text-center mx-auto md:mx-0 w-[55%] rounded-[20px]">Be Awakened</h3>
+                              <h5 className="text-[15px] pt-3 text-black  text-center md:text-left font-bold">Gain a New Perspective</h5>
+                              <p className="text-[12px] text-black text-center md:text-left leading-normal">Our programs are built on a bedrock of scripture, 
                                 designed to help people look at the 
                                 relationship between faith, work, and their unique place in it all through a new lens.</p>
                           </div>
@@ -172,28 +160,28 @@ export default function Home() {
 
 
                       <div className=" pl-[14px] flex items-center p-[23px] justify-end md:mt-[-80px]">      
-                          <div className="md:w-6/12 flex items-center justify-center">
-                                    <div className="md:w-6/12 float-right">
-                                      <h3 className="text-[13px] bg-[#a1cf5f] text-black text-center w-[55%] rounded-[20px]">BE EQUIPPED</h3>
-                                      <h5 className="text-[15px] pt-3  text-black font-bold">Live an Integrated Life</h5>
-                                      <p className="text-[12px] text-black leading-normal">Our methods are rich with practical tools for becoming a modern-day apprentice of Jesus, dissolving the false distinction between faith and work.</p>
+                          <div className="md:w-6/12 grid md:flex items-center justify-center">
+                                    <div className="md:w-6/12 float-right md:order-1 order-2">
+                                      <h3 className="text-[13px] bg-[#a1cf5f] mx-auto md:mx-0 text-black text-center w-[55%] rounded-[20px]">BE EQUIPPED</h3>
+                                      <h5 className="text-[15px] pt-3 text-center md:text-left  text-black font-bold">Live an Integrated Life</h5>
+                                      <p className="text-[12px] text-center md:text-left text-black leading-normal">Our methods are rich with practical tools for becoming a modern-day apprentice of Jesus, dissolving the false distinction between faith and work.</p>
                                     </div>
-                                      <div className="md:w-6/12 p-2" >
-                                          <img src="/33.png" alt="" className='md:h-auto h-[100%]' />
+                                      <div className="md:w-6/12 p-2 md:order-2" >
+                                          <img src="/33.png" alt="" className='md:h-auto mx-auto md:mx-0 h-[100%]' />
                                       </div>
                           </div >
                       </div>
 
 
                     <div className=" pl-[14px] flex items-center p-[23px]  md:mt-[-70px]">
-                        <div className="md:w-6/12 flex md:items-center md:justify-center"> 
+                        <div className="md:w-6/12 md:flex md:items-center md:justify-center"> 
                           <div className="md:w-6/12 p-2" >
-                          <img src="/34.png" alt="" className='md:h-auto h-[100%]' />
+                          <img src="/34.png" alt="" className='md:h-auto mx-auto md:mx-0 h-[100%]' />
                           </div>
                           <div className="md:w-6/12 ">
-                            <h3 className="text-[13px] bg-[#a1cf5f] text-black text-center w-[55%] rounded-[20px]">BE UNLEASHED</h3>
-                            <h5 className="text-[15px] pt-3  text-black font-bold">Transform Your City</h5>
-                            <p className="text-[12px] text-black leading-normal">Our framework is designed to give you actionable steps toward assessing where your city is in need and how you can bring redemption to it.</p>
+                            <h3 className="text-[13px] bg-[#a1cf5f] text-black text-center mx-auto md:mx-0  w-[55%] rounded-[20px]">BE UNLEASHED</h3>
+                            <h5 className="text-[15px] pt-3  text-black text-center md:text-left font-bold">Transform Your City</h5>
+                            <p className="text-[12px] text-black text-center md:text-left leading-normal">Our framework is designed to give you actionable steps toward assessing where your city is in need and how you can bring redemption to it.</p>
                           </div>
                     </div>
                   </div>
@@ -203,17 +191,17 @@ export default function Home() {
 
                  <div className="container mx-auto" >     <div className="flex flex-col md:flex-row w-[89%] mx-auto items-center rounded-[5px]" style={{ backgroundColor: 'rgb(3, 4, 2)' }}>
                         <div className="md:w-4/12 p-[40px]">
-                        <h3 className="text-[15px] bg-[#fff] text-black font-bold text-center w-[45%] rounded-[20px]">About the Book</h3>
-                          <h5 className="text-[35px] text-[#A1CF5F]   pb-[15px] font-bold pt-[20px] leading-10 ">THE INTERSECTION</h5>
-                          <p className="text-[35px] text-white leading-normal">
-                              FAITH, WORK,<br/>
+                        <h3 className="text-[15px] bg-[#fff]  text-black font-bold text-center w-[45%] rounded-[20px]">About the Book</h3>
+                          <h5 className="md:text-[35px] text-[28px]  text-[#A1CF5F]   pb-[15px] font-bold pt-[20px] md:leading-10 ">THE INTERSECTION</h5>
+                          <p className="md:text-[35px]  text-[25px] text-white md:leading-normal">
+                              FAITH, WORK,<br className="hidden md:block"/>
                               AND LIFE</p>
                         <img src='/35.png' className="md:h-[150px] h-[83px]" />
                       
-                        <h5 className="text-[30px] text-white font-bold pb-5">Bob Varney</h5>
+                        <h5 className="text-[30px] text-white font-bold pb-2 md:pb-5">Bob Varney</h5>
                         <h5 className="text-[12px] text-white font-bold">Cities Project Global CEO, President</h5>
                         </div>
-                        <div className="md:w-8/12   p-10">
+                        <div className="md:w-8/12  pb-10 md:p-10">
                         <img src='/36.png' className="" />
                         <div className="md:float-right md:mt-[-50px] mt-5 z-99999 relative" >
                           <button className=" mx-auto mt-[21px] md:mx-0 md:mt-0 flex items-center gap-3 text-black bg-[#A1CF5F] font-bold p-2 rounded-[5px]">Buy Now <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" id="arrow">
@@ -231,9 +219,9 @@ export default function Home() {
                       </div>
                       </div>
 
-                    <div className="container mx-auto" >  <section className="pt-[150px] border border-x-0 border-y-stroke bg-alabaster py-11 dark:border-y-strokedark dark:bg-black">
+                    <div className="container mx-auto" >  <section className="md:pt-[150px] pt-[50px] border border-x-0 border-y-stroke bg-alabaster py-11 dark:border-y-strokedark dark:bg-black">
                       <div className="mx-auto max-w-c-1390 px-4 md:px-8 2xl:px-0">
-                      <h5 className="text-[48px] text-black text-center pb-[30px] font-bold pb-2">Our Partners</h5>
+                      <h5 className="md:text-[48px] text-[30px] text-black text-center md:pb-[30px] font-bold pb-2">Our Partners</h5>
                       <h5 className="text-[15px] text-black text-center">Be the first to know about Cities Project Global news, programs, and impact</h5>
                       <div className="grid grid-cols-2 sm:flex sm:flex-wrap justify-center gap-2 w-[63%] mx-auto pt-[29px]">
   <img src="/37.png" className="w-[150px] h-[150px] p-[33px] border border-[#e3e2e2] object-contain mx-auto" />
@@ -246,12 +234,13 @@ export default function Home() {
   <img src="/38.png" className="w-[150px] h-[150px] p-[33px] border border-[#e3e2e2] object-contain mx-auto" />
   <img src="/37.png" className="w-[150px] h-[150px] p-[33px] border border-[#e3e2e2] object-contain mx-auto" />
 
-  <div className="relative bg-black text-white p-[27px] w-[150px] h-[150px] flex items-center justify-center mx-auto">
+  <div className="relative bg-black text-white p-[27px] w-[100%] md:w-[150px] h-[150px] flex items-center justify-center mx-auto">
     <div className="text-left absolute bottom-[15px] w-[89%]">
       <h5 className="text-[12px] font-bold pb-2">Become a Partner</h5>
       <h3 className="text-[10px] font-bold">Join Now!</h3>
     </div>
   </div>
+
 </div>
 
 

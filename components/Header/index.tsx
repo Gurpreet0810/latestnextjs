@@ -29,32 +29,42 @@ const Header = () => {
   useEffect(() => {
     window.addEventListener("scroll", handleStickyMenu);
   });
+  const [isDesktop, setIsDesktop] = useState(false);
 
+  useEffect(() => {
+    const updateMedia = () => {
+      setIsDesktop(window.innerWidth >= 768); // 768px and above for desktop
+    };
+    updateMedia();
+    window.addEventListener("resize", updateMedia);
+    return () => window.removeEventListener("resize", updateMedia);
+  }, []);
   return (
     <header
     className={` left-0 top-5 z-99999 md:pt-6 w-full ${
       stickyMenu
         ? "bg-white !py-4 shadow transition duration-100 dark:bg-black"
         : ""
-    } ${isHomePage ? "absolute" : "mt-2"}`}
+    } ${isHomePage ? "md:absolute my-1" : "mt-2"}`}
   >
       {/* <div className="relative mx-auto max-w-[89%]  border-t border-b border-white border-solid items-center justify-between px-4 md:px-8 xl:flex 2xl:px-0"> */}
-       <div className={`relative mx-auto max-w-[89%]  border-t border-b  border-solid items-center justify-between px-4 md:px-8 xl:flex 2xl:px-0  ${
-    isHomePage ? "border-white" : "border-[#000000]"
-  }`}
+       <div className={`relative mx-auto max-w-[89%]  border-t border-b  border-solid items-center justify-between px-4 md:px-8 xl:flex 2xl:px-0 
+
+      ${isHomePage && isDesktop ? "border-white" : "border-[#000000]"}` }
   >
         <div className="flex w-full items-center justify-between xl:w-1/4">
           <a href="/" onClick={closeNavigation} >
             <Image
               // src="/1 1.png"
               src={
-                isHomePage ? "/1 1.png" : "/logo.png"
+                 isHomePage && isDesktop ? "/1 1.png" : "/logo.png"
               }
               alt="logo"
               width={50.03}
               height={30}
               className="md:m-0 m-1.5"
             />
+            
           </a>
 
           {/* <!-- Hamburger Toggle BTN --> */}
@@ -103,7 +113,7 @@ const Header = () => {
           className={`invisible h-0 w-full  items-center justify-between xl:visible xl:flex xl:h-auto xl:w-full ${
             navigationOpen &&
             "navbar !visible mt-4 h-auto max-h-[400px] rounded-md bg-white p-7.5 shadow-solid-5 dark:bg-blacksection xl:h-auto xl:p-0 xl:shadow-none xl:dark:bg-transparent"
-          }`}
+          } ${isDesktop  ? "" : "absolute left-0 z-[999]"}`}
         >
           <nav>
           <ul
