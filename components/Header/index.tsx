@@ -48,7 +48,7 @@ const Header = () => {
     } ${isHomePage ? "md:absolute my-1" : "mt-2"}`}
   >
       {/* <div className="relative mx-auto max-w-[89%]  border-t border-b border-white border-solid items-center justify-between px-4 md:px-8 xl:flex 2xl:px-0"> */}
-       <div className={`relative mx-auto max-w-[89%]  border-t border-b  border-solid items-center justify-between px-4 md:px-8 xl:flex 2xl:px-0 
+       <div className={`relative mx-auto md:max-w-[89%]  border-t border-b  border-solid items-center justify-between px-4 md:px-8 xl:flex 2xl:px-0 
 
       ${isHomePage && isDesktop ? "border-white" : "border-[#000000]"}` }
   >

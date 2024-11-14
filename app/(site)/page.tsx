@@ -139,12 +139,12 @@ export default function Home() {
                 </div></div>
 
                 <div className="container mx-auto">  <div className="container w-[89%] mx-auto pt-[30px] pt-[30px] md:pt-[100px] md:pb-[100px]">
-                          <h1 className="text-[30px] md:text-[36px]  text-black font-bold leading-[40.09px] text-center">
+                          <h1 className="text-[30px] md:text-[36px] pb-15 text-black font-bold leading-[40.09px] text-center">
                           Confused over your calling?<br className="hidden md:block" />
                           Is ministry the only work that 'counts'?
                           </h1>
                     <div className=" pl-[14px] flex items-center p-[23px] ">
-                        <div className=" md:w-6/12 md:flex md:items-center md:justify-center">
+                        <div className=" md:w-6/12 md:flex md:gap-3 md:items-center md:justify-center">
                               <div className=" md:w-6/12 p-2" >
                                   <img src="/32.png" alt="" className='md:h-auto mx-auto md:mx-0 h-[100%]' />
                                 </div>
@@ -162,7 +162,7 @@ export default function Home() {
 
 
                       <div className=" pl-[14px] flex items-center p-[23px] justify-end md:mt-[-80px]">      
-                          <div className="md:w-6/12 grid md:flex items-center justify-center">
+                          <div className="md:w-6/12 grid md:flex  items-center justify-center">
                                     <div className="md:w-6/12 float-right md:order-1 order-2">
                                       <h3 className="text-[13px] bg-[#a1cf5f] mx-auto md:mx-0 text-black text-center w-[55%] rounded-[20px]">BE EQUIPPED</h3>
                                       <h5 className="text-[15px] pt-3 text-center md:text-left  text-black font-bold">Live an Integrated Life</h5>
@@ -177,13 +177,14 @@ export default function Home() {
 
                     <div className=" pl-[14px] flex items-center p-[23px]  md:mt-[-70px]">
                         <div className="md:w-6/12 md:flex md:items-center md:justify-center"> 
-                          <div className="md:w-6/12 p-2" >
-                          <img src="/34.png" alt="" className='md:h-auto mx-auto md:mx-0 h-[100%]' />
-                          </div>
+                          
                           <div className="md:w-6/12 ">
                             <h3 className="text-[13px] bg-[#a1cf5f] text-black text-center mx-auto md:mx-0  w-[55%] rounded-[20px]">BE UNLEASHED</h3>
                             <h5 className="text-[15px] pt-3  text-black text-center md:text-left font-bold">Transform Your City</h5>
                             <p className="text-[12px] text-black text-center md:text-left leading-normal">Our framework is designed to give you actionable steps toward assessing where your city is in need and how you can bring redemption to it.</p>
+                          </div>
+                          <div className="md:w-6/12 p-2" >
+                          <img src="/34.png" alt="" className='md:h-auto mx-auto md:mx-0 h-[100%]' />
                           </div>
                     </div>
                   </div>
@@ -193,15 +194,15 @@ export default function Home() {
 
                  <div className="container mx-auto" >     <div className="flex flex-col md:flex-row w-[89%] mx-auto items-center rounded-[5px]" style={{ backgroundColor: 'rgb(3, 4, 2)' }}>
                         <div className="md:w-4/12 p-[40px]">
-                        <h3 className="text-[15px] bg-[#fff]  text-black font-bold text-center w-[45%] rounded-[20px]">About the Book</h3>
-                          <h5 className="md:text-[35px] text-[28px]  text-[#A1CF5F]   pb-[15px] font-bold pt-[20px] md:leading-10 ">THE INTERSECTION</h5>
-                          <p className="md:text-[35px]  text-[25px] text-white md:leading-normal">
+                        <h3 className="text-[13px] bg-[#fff]   text-black font-bold mx-auto md:mx-0 text-center w-[45%] rounded-[20px]">About the Book</h3>
+                          <h5 className="md:text-[35px] text-[26px]  text-[#A1CF5F] md:text-left text-center  pb-[15px] font-bold pt-[20px] md:leading-10 ">THE INTERSECTION</h5>
+                          <p className="md:text-[35px]  text-[22px] md:text-left text-center text-white md:leading-normal">
                               FAITH, WORK,<br className="hidden md:block"/>
                               AND LIFE</p>
-                        <img src='/35.png' className="md:h-[150px] h-[83px]" />
+                        <img src='/35.png' className="md:h-[150px] mx-auto md:mx-0 h-[83px]" />
                       
-                        <h5 className="text-[30px] text-white font-bold pb-2 md:pb-5">Bob Varney</h5>
-                        <h5 className="text-[12px] text-white font-bold">Cities Project Global CEO, President</h5>
+                        <h5 className="text-[30px] text-white md:text-left text-center font-bold pb-2 md:pb-5">Bob Varney</h5>
+                        <h5 className="text-[12px] text-white md:text-left text-center font-bold">Cities Project Global CEO, President</h5>
                         </div>
                         <div className="md:w-8/12  pb-10 md:p-10">
                         <img src='/36.png' className="" />
