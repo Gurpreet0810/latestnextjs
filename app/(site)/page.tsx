@@ -223,7 +223,7 @@ export default function Home() {
                       <div className="mx-auto max-w-c-1390 px-4 md:px-8 2xl:px-0">
                       <h5 className="md:text-[48px] text-[30px] text-black text-center md:pb-[30px] font-bold pb-2">Our Partners</h5>
                       <h5 className="text-[15px] text-black text-center">Be the first to know about Cities Project Global news, programs, and impact</h5>
-                      <div className="grid grid-cols-2 sm:flex sm:flex-wrap justify-center gap-2 w-[63%] mx-auto pt-[29px]">
+                      <div className="grid grid-cols-2 sm:flex sm:flex-wrap justify-center gap-2 md:w-[63%] mx-auto pt-[29px]">
   <img src="/37.png" className="w-[150px] h-[150px] p-[33px] border border-[#e3e2e2] object-contain mx-auto" />
   <img src="/38.png" className="w-[150px] h-[150px] p-[33px] border border-[#e3e2e2] object-contain mx-auto" />
   <img src="/39.png" className="w-[150px] h-[150px] p-[33px] border border-[#e3e2e2] object-contain mx-auto" />
@@ -234,7 +234,7 @@ export default function Home() {
   <img src="/38.png" className="w-[150px] h-[150px] p-[33px] border border-[#e3e2e2] object-contain mx-auto" />
   <img src="/37.png" className="w-[150px] h-[150px] p-[33px] border border-[#e3e2e2] object-contain mx-auto" />
 
-  <div className="relative bg-black text-white p-[27px] w-[100%] md:w-[150px] h-[150px] flex items-center justify-center mx-auto">
+  <div className="relative bg-black text-white p-[27px] w-[150px] h-[150px] flex items-center justify-center mx-auto">
     <div className="text-left absolute bottom-[15px] w-[89%]">
       <h5 className="text-[12px] font-bold pb-2">Become a Partner</h5>
       <h3 className="text-[10px] font-bold">Join Now!</h3>
