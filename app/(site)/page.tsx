@@ -3,8 +3,10 @@ import Slider from "react-slick";
 import Testimonial from "@/components/Testimonial";
 import VideoCarousel from "@/components/videotestemonial";
 import Newsletter from "@/components/Newsletter";
+import PostSlider from "@/components/PostSlider";
 
 import {  Anton } from "next/font/google";
+
 const anton = Anton({ weight: '400', subsets: ["latin"] }); 
 
 
@@ -223,7 +225,7 @@ export default function Home() {
                       <div className="mx-auto max-w-c-1390 px-4 md:px-8 2xl:px-0">
                       <h5 className="md:text-[48px] text-[30px] text-black text-center md:pb-[30px] font-bold pb-2">Our Partners</h5>
                       <h5 className="text-[15px] text-black text-center">Be the first to know about Cities Project Global news, programs, and impact</h5>
-                      <div className="grid grid-cols-2 sm:flex sm:flex-wrap justify-center gap-2 md:w-[63%] mx-auto pt-[29px]">
+                      <div className=" md:hidden grid grid-cols-2 sm:flex sm:flex-wrap justify-center gap-2 md:w-[63%] mx-auto pt-[29px]">
   <img src="/37.png" className="w-[150px] h-[150px] p-[33px] border border-[#e3e2e2] object-contain mx-auto" />
   <img src="/38.png" className="w-[150px] h-[150px] p-[33px] border border-[#e3e2e2] object-contain mx-auto" />
   <img src="/39.png" className="w-[150px] h-[150px] p-[33px] border border-[#e3e2e2] object-contain mx-auto" />
@@ -234,7 +236,7 @@ export default function Home() {
   <img src="/38.png" className="w-[150px] h-[150px] p-[33px] border border-[#e3e2e2] object-contain mx-auto" />
   <img src="/37.png" className="w-[150px] h-[150px] p-[33px] border border-[#e3e2e2] object-contain mx-auto" />
 
-  <div className="relative bg-black text-white p-[27px] w-[150px] h-[150px] flex items-center justify-center mx-auto">
+  <div className=" relative bg-black text-white p-[27px] w-[150px] h-[150px] flex items-center justify-center mx-auto">
     <div className="text-left absolute bottom-[15px] w-[89%]">
       <h5 className="text-[12px] font-bold pb-2">Become a Partner</h5>
       <h3 className="text-[10px] font-bold">Join Now!</h3>
@@ -243,8 +245,31 @@ export default function Home() {
 
 </div>
 
+{/* desktop div start */}
+<div className="hidden md:block py-10 ">
+<div className="flex justify-center mx-auto w-fit mb-3 gap-3">
+  <img src="/37.png" className="w-[150px] h-[150px] p-[33px] border border-[#e3e2e2] object-contain" />
+  <img src="/38.png" className="w-[150px] h-[150px] p-[33px] border border-[#e3e2e2] object-contain" />
+  <img src="/39.png" className="w-[150px] h-[150px] p-[33px] border border-[#e3e2e2] object-contain" />
+  <img src="/40.png" className="w-[150px] h-[150px] p-[33px] border border-[#e3e2e2] object-contain" />
+  <img src="/41.png" className="w-[150px] h-[150px] p-[33px] border border-[#e3e2e2] object-contain" />
+</div>
 
-
+<div className="flex justify-center items-center mx-auto w-fit mb-3 gap-3 ">
+  <div className="flex justify-center gap-3">
+    <img src="/43.png" className="w-[150px] h-[150px] p-[33px] border border-[#e3e2e2] object-contain" />
+    <img src="/38.png" className="w-[150px] h-[150px] p-[33px] border border-[#e3e2e2] object-contain" />
+    <img src="/37.png" className="w-[150px] h-[150px] p-[33px] border border-[#e3e2e2] object-contain" />
+  </div>
+  <div className="relative bg-black text-white p-[27px] w-[150px] h-[150px] flex items-center justify-center mx-auto ">
+    <div className="text-left absolute bottom-[15px] w-[89%]">
+      <h5 className="text-[12px] font-bold pb-2">Become a Partner</h5>
+      <h3 className="text-[10px] font-bold">Join Now!</h3>
+    </div>
+  </div>
+</div>
+</div>
+{/* Desktop div end */}
               {/* / */}
 
               <section className=" md:flex w-[97%] mt-[54px] mx-auto  items-center justify-center gap-9 bg-[#000]">
@@ -264,7 +289,7 @@ export default function Home() {
                     </section>
                     </div>
 
-           <div className='container mx-auto'>      <div className="w-[100%] mx-auto">
+           <div className='container mx-auto hidden md:block'>      <div className="w-[100%] mx-auto">
                   <h2 className="font-inter text-4xl font-bold leading-[58.09px] p-8 text-black text-left text-center decoration-skip-ink-none">Stories of Transformation</h2>
                   <div className=" md:flex">
                     <div className=" md:w-3/12 relative grid place-items-center p-10"> 
@@ -303,6 +328,7 @@ export default function Home() {
                   </div>
 
                   </div> 
+                  <PostSlider />
                   {/* <section className="bg-white dark:bg-gray-900 bg-[#F5F5F5] w-[90%] mx-auto">
                 <div className="max-w-screen-xl px-4 py-8 mx-auto text-center lg:py-16 lg:px-6">
                     <figure className="max-w-screen-md mx-auto">
@@ -332,7 +358,6 @@ export default function Home() {
               <VideoCarousel />
 
                     <Newsletter/>
-
               {/* <div className=" md:flex w-[89%] mx-auto bg-[#000000] p-5">
                     <div className="md:w-6/12 md:p-30">
                     <strong className={`${anton.className} uppercase md:text-[55px] text-[41px] text-white font-light leading-[50px]`}>

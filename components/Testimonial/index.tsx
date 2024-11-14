@@ -45,7 +45,7 @@ const Testimonial = () => {
               pagination={{
                 clickable: true,
               }}
-              modules={[Autoplay, Pagination]}
+              modules={[Autoplay]}
               breakpoints={{
                 0: {
                   slidesPerView: 1,

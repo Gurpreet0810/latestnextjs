@@ -75,7 +75,7 @@ const VideoCarousel = () => {
             {/* Video Carousel */}
             <div className="swiper video-carousel mb-20 pb-22.5">
               <Swiper
-                modules={[Autoplay, Pagination]}
+                modules={[Autoplay]}
                 spaceBetween={50}
                 slidesPerView={3}
                 autoplay={{
