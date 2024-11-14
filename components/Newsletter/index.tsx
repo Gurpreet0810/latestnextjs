@@ -18,7 +18,7 @@ export default function Newsletter() {
                         <input type="email" placeholder="Email" className="bg-transparent border border-[#f6f6f626] p-[10px]"  />
                         <label className="text-[12px]  pt-2 font-normal  text-left  decoration-slice">Please Confirm</label>
                         <p className="text-[15px]  p-2 font-normal  text-left  decoration-slice"><input type="checkbox" /> I want to subscribe to all CPG emails</p>
-                        <button type='submit' className="mx-auto md:mx-0 md:w-[18%] w-[28%] bg-[#A1CF5F] md:p-[8px] p-[10px] text-black rounded-[7px] text-[16px]">Submit</button>
+                        <button type='submit' className="mx-auto font-bold md:mx-0 md:w-[18%] w-[28%] bg-[#A1CF5F] md:p-[8px] p-[10px] text-black rounded-[7px] text-[16px]">Submit</button>
                       </form>
                     </div>
 

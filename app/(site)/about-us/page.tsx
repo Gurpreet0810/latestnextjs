@@ -14,7 +14,7 @@ export default function NewPage() {
                   <img src="/55.png" className=" mx-auto" alt="" />
                   </section >
 
-              <div className="container mx-auto">  <section className="md:flex md:py-[32px] ">
+              <div className="container mx-auto">  <section className="md:flex md:gap-20 md:py-[32px] ">
                                 <div className="md:w-2/3 ">
                                 <h3 className="md:text-[20px] text-center md:text-left text-[23px] text-black leading-[36px] p-[22px]">
                         According to Barna Research, only 1% of Christians
@@ -29,15 +29,15 @@ export default function NewPage() {
                       <hr />  
 
                                 
-                                  <div className="p-7 md:flex gap-6">
+                                  <div className="p-7 md:flex gap-15 md:pt-20">
                                     <div className=" md:w-1/3">
                                     <img src="/566.png" alt="" />
                                     </div>
                                     <div className=" md:w-2/3 pt-3">
-                                      <h4 className="text-[13px] text-center md:text-left  text-black font-normal leading-[18px] text-left">
+                                      <h4 className="text-[14px] text-center md:text-left  text-black font-normal leading-[18px] text-left">
                                       That represents an enormous opportunity to create culturally widespread impact, but roughly 65% of believers are disengaged from their work and view it as separate from their faith. This reveals that most Christians don’t realize that work was designed by God as a partnered effort toward restoring the world to its original  goodness. But when people do realize that faith and work are designed by God to be integrated, work becomes an act of worship, and everything changes – lives, families, and entire.
                                       </h4>
-                                      <p className="text-[12px] text-center md:text-left  pt-[19px] md:w-[57%] text-black  font-bold leading-[18px] text-left pb-3 md:pb-0">
+                                      <p className="text-[13px] text-center md:text-left  pt-[19px] md:w-[57%] text-black  font-bold leading-[18px] text-left pb-3 md:pb-0">
                                       We’re here to help leaders identify their unique position in God’s story and fully integrate their faith and work lives, enabling them to impact their communities and cities on a systemic level.
                                       </p>
                                       <a href="#" className=" flex mx-auto md:mx-0 items-center gap-2.5 w-[fit-content] inline-block mt-4 bg-[#A1CF5F] font-bold text-black text-sm py-3 px-6 rounded-lg transition duration-300">Read a Sample Chapter<svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" id="arrow"><g fill="none" fill-rule="evenodd" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M1 13 13 1M4 1h9v9"></path></g></svg></a>
@@ -68,14 +68,14 @@ export default function NewPage() {
                             </div>
                             <div className="md:w-1/2 md:p-10 p-3 pb-0"> 
                                     <h3 className="text-[25px] md:text-[30px] font-bold text-black text-center md:text-left md:leading-[38.09px]">We need Influential Leaders Across All Spheres of Society</h3>
-                                    <p className="text-[11px] text-black leading-[15px] pt-5 text-left">
+                                    <p className="text-[13px] text-black leading-[15px] pt-5 text-left">
                                     Righteous  leaders change their cities through justice, love, and working for the  common good of all – this is part of the foundation of what we teach at  Cities Project Global.
                                     </p>
-                                    <h4 className="text-[11px] text-black font-bold leading-[15px] pt-5  text-center md:text-left">Executives and managers can advocate  for workplace policies that benefit employees who are typically unseen  and underserved in corporate settings</h4>
+                                    <h4 className="text-[13px] text-black font-bold leading-[15px] pt-5  text-center md:text-left">Executives and managers can advocate  for workplace policies that benefit employees who are typically unseen  and underserved in corporate settings</h4>
 
-                                    <h4 className="text-[11px] text-black font-bold leading-[15px] pt-5  text-center md:text-left">Architects and engineers can design  buildings to be accessible all, meeting the maximum safety standards and  in a way that does not negatively impact the environment or pollute  local and global communities</h4>
+                                    <h4 className="text-[13px] text-black font-bold leading-[15px] pt-5  text-center md:text-left">Architects and engineers can design  buildings to be accessible all, meeting the maximum safety standards and  in a way that does not negatively impact the environment or pollute  local and global communities</h4>
 
-                                    <h4 className="text-[11px] text-black font-bold leading-[15px] pt-5  text-center md:text-left">Artists can create works of beauty in  public spaces to commemorate local heroes who worked for social justice  and lifted up the oppressed</h4>
+                                    <h4 className="text-[13px] text-black font-bold leading-[15px] pt-5  text-center md:text-left">Artists can create works of beauty in  public spaces to commemorate local heroes who worked for social justice  and lifted up the oppressed</h4>
                             </div>
 
 
@@ -128,7 +128,7 @@ export default function NewPage() {
                                 <p className="font-normal text-[15px]  text-black  md:text-white md:w-[72%]"> Become a part of the global effort to integrate faith and work, impacting cities and communities around the world. </p>
                                 
                             </div>
-                            <div className="hidden md:block absolute bottom-5 right-[12%] p-5">
+                            <div className="hidden md:block absolute bottom-5 right-[5%] p-5">
                             <img src='/73.png' className="w-[80%]" />
                             </div>
                         </div>
@@ -151,14 +151,14 @@ export default function NewPage() {
                             </div>
                         </div>
                         <div className="md:w-1/2 order-1 bg-[#d3d3d3] md:h-auto h-[350px] w-auto   bg-contain bg-no-repeat bg-center bg-[url('/74.png')]  ">
-                            
+                              <div className="border border-white m-[6px] w-[98%] h-[97%] relative "></div>
                         </div>  
                 </section>
                 </div>
                 <div className="container mx-auto">
                   <section className="md:flex pb-[32px]">
                       <div className="md:w-1/2 bg-contain bg-[#d3d3d3] md:h-auto h-[350px] w-auto bg-no-repeat bg-center bg-[url('/75.png')]  ">
-                          
+                      <div className="border border-white m-[6px] w-[98%] h-[97%] relative "></div>
                           </div>  
                       <div className="md:w-1/2 bg-[#000000] p-2 ">
                         <div className="border border-white border-solid p-8">  <h1 className="text-[40px] text-center md:text-left font-bold leading-[56px] text-[#C7EF92] " >Hugh Brandt</h1>
@@ -205,7 +205,7 @@ export default function NewPage() {
                       </div><img src='/81.png' alt="" className="md:absolute hidden md:block left-[-6%] top-[13%]" />
                     </div>
                     </div>
-                    <div className=""><h3 className="md:text-left text-center md:w-1/3 text-black font-normal">
+                    <div className=""><h3 className=" md:mt-[-10%] md:text-left text-center md:w-1/3 text-black font-normal">
                     Our mission is to guide leaders in combining their faith with their work to create meaningful change and restore communities at a systemic level.
                                 </h3>
                                 <a href="#" className=" flex text-[13px] mx-auto md:mx-0 gap-2.5 w-[fit-content] text-center inline-block mt-4 bg-[#A1CF5F] font-bold text-black md:text-sm p-3  rounded-lg transition duration-300">Join Our Community of Culturemakers <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" id="arrow"><g fill="none" fill-rule="evenodd" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M1 13 13 1M4 1h9v9"></path></g></svg></a>
