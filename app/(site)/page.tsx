@@ -31,7 +31,7 @@ export default function Home() {
                     <div className="container-fluid mx-auto">
                       <div className="relative w-full">
                         <img src="/banner.jpg" alt="banner" className="w-full md:h-[auto] h-[350px]" />
-                        <div className="absolute top-1/2 left-9 transform -translate-y-1/2 text-white">
+                        <div className="absolute top-1/2 left-8 transform -translate-y-1/2 text-white">
                       <h3 className="text-[9px] bg-[#fff] text-black text-center w-[55%] rounded-[20px] mb-[20px] md:mb-0"> Transform your workplace and community</h3>
                         <strong className={`${anton.className} uppercase md:text-[85px] leading-[34px] text-[37px] font-light xl:leading-[101px]  md:leading-none`}>
                         Live Life<br className="hidden md:block" />

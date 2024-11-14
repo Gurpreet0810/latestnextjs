@@ -143,7 +143,7 @@ const Footer = () => {
                 </li>
             </ul>
         </div>
-        <div className="grid justify-center items-center">
+        <div className="grid justify-center items-start">
           
             <ul className="text-gray-500 dark:text-gray-400 font-medium">
                 <li className="mb-4">
