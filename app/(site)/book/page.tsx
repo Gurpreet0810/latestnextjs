@@ -8,17 +8,17 @@ export default function Book() {
         <main className="md:w-[91%]   mx-auto">
             <h1 className="md:py-[42px] py-[30px] md:text-[40px] text-[25px] font-bold text-center text-black md:w-[52%] p-5 mx-auto md:leading-[49px] ">Discover Our Book
             A Guide to Integrating Faith, Work, and Community</h1>
-                  <section className="md:py-[42px]">
+                  <section className="md:py-[42px] md:p-0 p-3">
                   <img src="/86.png" className=" mx-auto" alt="" />
                   </section >
                   <div className="container mx-auto">
                     <div className="md:flex">
                         <div className="md:w-5/12">
-                            <img src='87.png' className="w-[70%] mx-auto" />
+                            <img src='87.png' className="w-[50%] md:w-[70%] mx-auto" />
                         </div>
                         <div className="md:w-7/12 p-10">
-                        <h2 className="font-bold text-gray-800 text-3xl md:text-4xl leading-tight mb-4">Introducing a New Book</h2>
-                        <p className="text-gray-500 text-lg md:text-xl leading-relaxed mb-6 md:pl-2">For decades now, I have witnessed the near non-existence of the  practical intersection between faith and work. The sacred-secular divide  is pervasive, rendering work forever inferior. The result is confusion  and ineffectiveness as we try to straddle these two disconnected worlds.</p>
+                        <h2 className="font-bold text-gray-800 text-center md:text-left text-3xl md:text-4xl text-[25px] leading-tight mb-4">Introducing a New Book</h2>
+                        <p className="text-gray-500 text-[18px] md:text-lg text-center  md:text-left md:text-xl leading-relaxed mb-6 md:pl-2">For decades now, I have witnessed the near non-existence of the  practical intersection between faith and work. The sacred-secular divide  is pervasive, rendering work forever inferior. The result is confusion  and ineffectiveness as we try to straddle these two disconnected worlds.</p>
                         <div className="md:flex gap-5">
                             <button className=" mx-auto mt-[21px] md:mx-0 md:mt-0 flex items-center gap-3 text-black bg-[#A1CF5F] font-bold p-2 rounded-[5px]" >
                                 Buy Now
@@ -43,16 +43,16 @@ export default function Book() {
                   <div className="md:flex">
                     
                         <div className="md:w-2/5 bg-[#000000] p-10 grid justify-center items-center">
-                        <h2 className="font-bold text-white  w-[85%] text-[33px] leading-tight mb-4">Get Your Copy Today
+                        <h2 className="font-bold text-white  md:w-[85%] text-center md:text-left md:text-[33px] text-[28px] leading-tight mb-4">Get Your Copy Today
                         Available on Amazon and More...</h2>
                         </div>
-                        <div className="md:w-1/5 p-[46px] grid justify-center items-center border border-black h-[250px]">
+                        <div className="md:w-1/5 md:m-0 m-5 md:p-[46px] grid justify-center items-center border border-black md:h-[250px]">
                         <img src="/88.png" alt='' />
                         </div>
-                        <div className="md:w-1/5 p-[46px] grid justify-center items-center border border-black h-[250px]">
+                        <div className="md:w-1/5  md:m-0 m-5 md:p-[46px] grid justify-center items-center border border-black md:h-[250px]">
                         <img src="/89.png" alt='' />
                         </div>
-                        <div className="md:w-1/5 p-[46px] grid justify-center items-center border border-black h-[250px]">
+                        <div className="md:w-1/5  md:m-0 m-5 md:p-[46px] grid justify-center items-center border border-black md:h-[250px]">
                         <img src="/90.png" alt='' />
                         </div>
                     </div>
@@ -69,7 +69,7 @@ export default function Book() {
 
             <div className="container mx-auto">
                   <section className="md:py-[32px] ">
-                        <h1 className="md:text-[38px]  text-[25px] font-bold text-center text-black md:w-[52%] p-5 mx-auto leading-[49px]">What is cities project global</h1>
+                        <h1 className="md:text-[38px]  text-[25px] font-bold text-center text-black md:w-[52%] p-5 mx-auto md:leading-[49px]">What is cities project global</h1>
                         <div className="relative mx-auto table"> 
                             <img src="/92.png" alt="" />
                             <div className="md:absolute bottom-3 p-5 text-center md:text-left">
@@ -130,7 +130,7 @@ The call to return to God’s design is desperately needed, a message  that can 
                         <img src='/94.png' className="md:absolute md:mx-0 mx-auto bottom-[29%] right-3 " alt='' />
                         </div>
                         <div className="md:w-1/2 p-2">
-                        <img src='/93.png' alt='' />
+                        <img src='/93.png' className="md:p-0 p-9" alt='' />
                         <p className="font-normal  text-center md:text-left text-[14px] pt-3 text-black pb-3">
                         Many believers feel that way and live as  though there is a significant divide between their “faith life” and  their “work life.” The truth is that God never intended the two to be  separate. Work was created as a God-human partnership toward building  flourishing cultures of redemption—toward building God’s kingdom on  earth. No matter what your area of work or influence is, whether it’s in  science, economics, the arts, education, or family, etc., God sees your  daily life as a vital part of his story.
                         </p><p className="font-normal  text-center md:text-left text-[14px]  text-black pb-3">        
@@ -141,10 +141,10 @@ The call to return to God’s design is desperately needed, a message  that can 
                  </div>
 
  
-                 <div className="container mx-auto py-15">
+                 <div className="container mx-auto py-15 md:p-0 p-3">
                     <div className="md:flex ">
                         <div className="md:w-1/2 p-2 relative">
-                        <h2 className="font-bold text-black text-center md:text-left  md:w-[75%] text-[33px] leading-tight mb-4">Empowering Change Moving Into Action to Impact Cities and Communities</h2>
+                        <h2 className="font-bold text-black text-center md:text-left  md:w-[75%] md:text-[33px] text-[28px] leading-tight mb-4">Empowering Change Moving Into Action to Impact Cities and Communities</h2>
                         
                         </div>
                         <div className="md:w-1/2 p-2">
@@ -159,7 +159,7 @@ The call to return to God’s design is desperately needed, a message  that can 
                         <div className=" relative">
                             <div className="md:flex md:absolute top-[-20%] md:w-[95%] right-0">
                                 <div className="md:w-1/2 h-[232px] grid items-center p-6 bg-[#B8EA81]" >
-                                <p className="text-[#000000] text-[14px]">Find something around you that  breaks God’s heart; if it also breaks your heart, determine what you can  do to move it closer to how it ought to be, and then begin to do it;</p>
+                                <p className="text-[#000000] text-center md:text-left  text-[14px]">Find something around you that  breaks God’s heart; if it also breaks your heart, determine what you can  do to move it closer to how it ought to be, and then begin to do it;</p>
                                 </div>
                                 <div className="md:w-1/2 h-[232px] grid items-center  p-6 bg-[#000000]">
                                <div> <p className="text-white  text-center md:text-left text-[14px]">If you want help on your journey, consider registering with us.</p>
@@ -175,28 +175,55 @@ The call to return to God’s design is desperately needed, a message  that can 
                         </div>
                     </div>
                  </div>
-                 <div className="container mx-auto md:pt-25 pb-25">
+                 <div className="container mx-auto md:pt-15 pb-15">
                    <div className="mx-auto max-w-c-1390 px-4 md:px-8 2xl:px-0">
-                                        <h5 className="text-[48px] text-black text-center pb-[30px] font-bold pb-2">Our Partners</h5>
+                                        <h5 className="text-[28px] md:text-[48px] text-black text-center pb-[30px] font-bold pb-2">Our Partners</h5>
                                         <h5 className="text-[15px] text-black text-center">Be the first to know about Cities Project Global news, programs, and impact</h5>
-                                        <div className="flex flex-wrap justify-center gap-2 w-[63%] mx-auto pt-[29px] ">
-                    <img src="/37.png" className="w-[150px] h-[150px] p-[33px] border border-[#e3e2e2] object-contain mx-auto" />
-                    <img src="/38.png" className="w-[150px] h-[150px] p-[33px] border border-[#e3e2e2] object-contain mx-auto" />
-                    <img src="/39.png" className="w-[150px] h-[150px] p-[33px] border border-[#e3e2e2] object-contain mx-auto" />
-                    <img src="/40.png" className="w-[150px] h-[150px] p-[33px] border border-[#e3e2e2] object-contain mx-auto" />
-                    <img src="/41.png" className="w-[150px] h-[150px] p-[33px] border border-[#e3e2e2] object-contain mx-auto" />
+                                        <div className=" md:hidden grid grid-cols-2 sm:flex sm:flex-wrap justify-center gap-2 md:w-[63%] mx-auto pt-[29px]">
+  <img src="/37.png" className="w-[150px] h-[150px] p-[33px] border border-[#e3e2e2] object-contain mx-auto" />
+  <img src="/38.png" className="w-[150px] h-[150px] p-[33px] border border-[#e3e2e2] object-contain mx-auto" />
+  <img src="/39.png" className="w-[150px] h-[150px] p-[33px] border border-[#e3e2e2] object-contain mx-auto" />
+  <img src="/40.png" className="w-[150px] h-[150px] p-[33px] border border-[#e3e2e2] object-contain mx-auto" />
+  <img src="/41.png" className="w-[150px] h-[150px] p-[33px] border border-[#e3e2e2] object-contain mx-auto" />
 
-                    <img src="/43.png" className="w-[150px] h-[150px] p-[33px] border border-[#e3e2e2] object-contain mx-auto" />
-                    <img src="/38.png" className="w-[150px] h-[150px] p-[33px] border border-[#e3e2e2] object-contain mx-auto" />
-                    <img src="/37.png" className="w-[150px] h-[150px] p-[33px] border border-[#e3e2e2] object-contain mx-auto" />
+  <img src="/43.png" className="w-[150px] h-[150px] p-[33px] border border-[#e3e2e2] object-contain mx-auto" />
+  <img src="/38.png" className="w-[150px] h-[150px] p-[33px] border border-[#e3e2e2] object-contain mx-auto" />
+  <img src="/37.png" className="w-[150px] h-[150px] p-[33px] border border-[#e3e2e2] object-contain mx-auto" />
 
-                    <div className="relative bg-black text-white p-[27px] w-[150px] h-[150px] flex items-center justify-center mx-auto">
-                        <div className="text-left absolute bottom-[15px] w-[89%]">
-                        <h5 className="text-[12px] font-bold pb-2">Become a Partner</h5>
-                        <h3 className="text-[10px] font-bold">Join Now!</h3>
-                        </div>
-                    </div>
-                    </div>
+  <div className=" relative bg-black text-white p-[27px] w-[150px] h-[150px] flex items-center justify-center mx-auto">
+    <div className="text-left absolute bottom-[15px] w-[89%]">
+      <h5 className="text-[12px] font-bold pb-2">Become a Partner</h5>
+      <h3 className="text-[10px] font-bold">Join Now!</h3>
+    </div>
+  </div>
+
+</div>
+
+{/* desktop div start */}
+<div className="hidden md:block py-10 ">
+<div className="flex justify-center mx-auto w-fit mb-3 gap-3">
+  <img src="/37.png" className="w-[150px] h-[150px] p-[33px] border border-[#e3e2e2] object-contain" />
+  <img src="/38.png" className="w-[150px] h-[150px] p-[33px] border border-[#e3e2e2] object-contain" />
+  <img src="/39.png" className="w-[150px] h-[150px] p-[33px] border border-[#e3e2e2] object-contain" />
+  <img src="/40.png" className="w-[150px] h-[150px] p-[33px] border border-[#e3e2e2] object-contain" />
+  <img src="/41.png" className="w-[150px] h-[150px] p-[33px] border border-[#e3e2e2] object-contain" />
+</div>
+
+<div className="flex justify-center items-center mx-auto w-fit mb-3 gap-3 ">
+  <div className="flex justify-center gap-3">
+    <img src="/43.png" className="w-[150px] h-[150px] p-[33px] border border-[#e3e2e2] object-contain" />
+    <img src="/38.png" className="w-[150px] h-[150px] p-[33px] border border-[#e3e2e2] object-contain" />
+    <img src="/37.png" className="w-[150px] h-[150px] p-[33px] border border-[#e3e2e2] object-contain" />
+  </div>
+  <div className="relative bg-black text-white p-[27px] w-[150px] h-[150px] flex items-center justify-center mx-auto ">
+    <div className="text-left absolute bottom-[15px] w-[89%]">
+      <h5 className="text-[12px] font-bold pb-2">Become a Partner</h5>
+      <h3 className="text-[10px] font-bold">Join Now!</h3>
+    </div>
+  </div>
+</div>
+</div>
+{/* Desktop div end */}
                  </div>
                  </div> 
 

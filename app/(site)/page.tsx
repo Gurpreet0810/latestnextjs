@@ -176,14 +176,14 @@ export default function Home() {
 
 
                     <div className=" pl-[14px] flex items-center p-[23px]  md:mt-[-70px]">
-                        <div className="md:w-6/12 md:flex md:items-center md:justify-center"> 
+                        <div className="md:w-6/12 md:flex md:items-center md:justify-center grid"> 
                           
-                          <div className="md:w-6/12 ">
+                          <div className="md:w-6/12 order-2 md:order-1">
                             <h3 className="text-[13px] bg-[#a1cf5f] text-black text-center mx-auto md:mx-0  w-[55%] rounded-[20px]">BE UNLEASHED</h3>
                             <h5 className="text-[15px] pt-3  text-black text-center md:text-left font-bold">Transform Your City</h5>
                             <p className="text-[12px] text-black text-center md:text-left leading-normal">Our framework is designed to give you actionable steps toward assessing where your city is in need and how you can bring redemption to it.</p>
                           </div>
-                          <div className="md:w-6/12 p-2" >
+                          <div className="md:w-6/12 p-2 order-1 md:order-2" >
                           <img src="/34.png" alt="" className='md:h-auto mx-auto md:mx-0 h-[100%]' />
                           </div>
                     </div>
