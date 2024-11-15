@@ -24,6 +24,7 @@ const menuData: Menu[] = [
     id: 3,
     title: "Program",
     newTab: false,
+    path: "/programs",
     submenu: [
       {
         id: 31,

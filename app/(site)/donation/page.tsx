@@ -18,7 +18,7 @@ export default function Book() {
             <section className=" container mx-auto py-20">
             <div className="flex">
                 <div className="w-1/2">
-                <h1 className="text-[76px] text-[#000000] font-normal text-center leading-[51px]">$0</h1>
+                <h1 className="text-[76px] text-[#000000] font-normal text-center leading-[51px]">$<span className="!text-[#cccccc]">0</span></h1>
                 <h4 className="text-[20px] w-[50%] font-bold leading-[24.2px] text-center m-auto py-5">Empower Communities Your Gift Makes an Impact</h4>
                 <div className="w-full max-w-md mx-auto mt-10">
             <div className="mx-auto bg-white border border-solid border-[#e6e6e7] rounded-[5px]">
@@ -66,6 +66,26 @@ export default function Book() {
                 {/* <img className="" src='/111.png' /> */}
                 </div>  
             </div>
+            </section>
+
+            <section className="container mx-auto">
+                    <div className="">
+                        
+                    <div className="grid items-end justify-end">
+                        <img src="/112.png" />
+                    
+                    </div>
+                        <div className="">
+                        <img src="/76.png" />
+                        <h3 className={`${anton.className} w-[41%]  text-center md:text-left md:text-[40px] text-[30px] text-black font-light leading-[50px]`}>
+                        Upright citizens are good for a city and make it prosper
+                            </h3>
+                            <p className={`${anton.className} text-[27px] text-[#A1CF5F] font-normal leading-[48.99px] text-left `}>(Prov 11:11a)</p>
+                            <hr className="w-[25%] mx-auto" />
+                            <h5 className="text-[18px] text-black md:w-[38%] mx-auto text-center md:text-left">Your donation will help Christian  leaders in the workplace learn HOW to be the salt and light God  intended. We are helping leaders bless their cities, change their  nations, and spread to everyone a desire to know God.</h5>
+                        </div>
+                    </div>
+                
             </section>
             
             
